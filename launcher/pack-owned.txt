@@ -1,2 +1,3 @@
 config/fancymenu/customization/gamemenu.txt
+config/log4j2.xml
 defaultconfigs/fancymenu/customization/gamemenu.txt
