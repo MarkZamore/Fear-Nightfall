@@ -1,0 +1,27 @@
+{
+  "authorArchiveSha256": "966d6f4002bf4e70f27b9d3452f7843058a116d6733e00ed6fc3bbde1db89890",
+  "preview": {
+    "height": 540,
+    "sha256": "c90e0411bfcd64bbe30ed2fdeaeaa15cd037ddfe7195ee8405849cfbfb8af819",
+    "sizeBytes": 80256,
+    "width": 960
+  },
+  "schemaVersion": 1,
+  "source": {
+    "authorPage": "https://www.curseforge.com/minecraft/modpacks/fear-nightfall",
+    "height": 808,
+    "sha256": "981dbc08ce94ea7123a6257e415866bdd888fecc8f0844d5320ad28d9dbbcccf",
+    "sizeBytes": 1086776,
+    "url": "https://raw.githubusercontent.com/LunaPixelStudios/Fear-Nightfall/1276625860436466bbea7bf45d19d2fa0b3781e4/banner.png",
+    "width": 1730
+  },
+  "transformation": {
+    "background": "#121212",
+    "format": "JPEG",
+    "method": "Lanczos resize preserving the full image",
+    "optimize": true,
+    "pillowVersion": "12.3.0",
+    "quality": 92,
+    "subsampling": 0
+  }
+}
