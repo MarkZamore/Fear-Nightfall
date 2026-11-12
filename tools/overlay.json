@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "authorArchiveSha256": "966d6f4002bf4e70f27b9d3452f7843058a116d6733e00ed6fc3bbde1db89890",
+  "descriptorSha256": "1c515a70f727d5c5266efa97b22ba339b6736730798b9e9f77ad652a72ebc9b7",
+  "patches": [
+    {
+      "path": "config/fancymenu/customization/gamemenu.txt",
+      "before": {
+        "sizeBytes": 51684,
+        "sha256": "946bf36692ff59113e06ac5a596522287711dce264831c9c0af0312db48fb001"
+      },
+      "after": {
+        "sizeBytes": 51662,
+        "sha256": "b0ca604604859c92af0a2425cc2cbc80759a9006a9568577585a659be500e8ff"
+      },
+      "from": "  label = Share World\n",
+      "to": ""
+    },
+    {
+      "path": "defaultconfigs/fancymenu/customization/gamemenu.txt",
+      "before": {
+        "sizeBytes": 27309,
+        "sha256": "b6f4d9de994468663db5f7e0c99a6e294090d7d7509f8183cb19b22d3a124865"
+      },
+      "after": {
+        "sizeBytes": 27287,
+        "sha256": "deb64ceb31923f7bb3ec070285af60ffc1e214da975d881640d0dd50df6d8f5c"
+      },
+      "from": "  label = Share World\n",
+      "to": ""
+    }
+  ]
+}

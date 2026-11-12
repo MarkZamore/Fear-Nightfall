@@ -1,0 +1,2 @@
+config/fancymenu/customization/gamemenu.txt
+defaultconfigs/fancymenu/customization/gamemenu.txt
