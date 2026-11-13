@@ -1,0 +1,303 @@
+{
+  "schemaVersion": 1,
+  "packId": "minecraft-23",
+  "packName": "Fear Nightfall: Remains of Chaos",
+  "status": "PASS",
+  "candidate": {
+    "revision": "8a1025b4273487f0cba5b65614c10a1808fdf2ce",
+    "manifestSha256": "1a16e07e3da316f8f6c5dbd4d53bd4904cee521209def4b201ca3259c3a1b017",
+    "librarySha256": "cc507188d8cfe6d3d5b7de10c2b39cc1f85c618e2c67e252423a409d8cb93028",
+    "libraryMods": 377,
+    "exclusions": [
+      {
+        "fileId": 6599106,
+        "path": "mods/luna_minecraft-forge-5.3.1.jar",
+        "projectId": 880620,
+        "sha256": "26635aa32433775d9f10403d928a2008cb38173032c25720c52d33fd2cb4b1c8",
+        "sizeBytes": 623151
+      },
+      {
+        "fileId": 4594978,
+        "path": "mods/no-report-button-forge-1.5.0.jar",
+        "projectId": 658722,
+        "sha256": "9f6a4af984632c7a7a673907303c5d69bd3016634ed48b328aa30a24cd0c0416",
+        "sizeBytes": 17064
+      }
+    ]
+  },
+  "launcher": {
+    "release": 497,
+    "revision": "e45c6f5830c8aa4725b4190cf05462097d94b753",
+    "exeSha256": "1169b958dca5633ecabc43b32cfd5091ce4f9de111fa767c5c58f4ec765a6b7c",
+    "managedDllSha256": "532f9237f5c226c18bbe4fb885389ea2b13ac31de8f24932b03fb3b7d5947b4a",
+    "transportSha256": "3f397fc193f14d3c543b5ef9b4613bc149a21ca8e14bd93c39de3d1bc6f9553c",
+    "productionJavaArgumentFile": true,
+    "javaMajor": 17,
+    "forgeProfile": "1.20.1-forge-47.4.8"
+  },
+  "qaTools": {
+    "sourceRevision": "6b3ad0331934f06395375bfc4923c73de464e3f9",
+    "script": "tools/PackData/CurseForge/Start-LocalQa.ps1",
+    "javaAgent": "tools/PackData/CurseForge/Forge118SteamQaAgent.java",
+    "javaAgentSha256": "592eee2e04efb32196b0ee840986318a266caf8c42ddaf6089f9bd331ab7ba8a",
+    "argumentValues": [
+      "-PackName",
+      "Fear-Nightfall-Policy",
+      "-WithSteam",
+      "-UseProductionJavaArgumentFile",
+      "-HeapMiB",
+      "8192",
+      "-MaximumSeconds",
+      "645",
+      "-NativeQaWorldSuffix",
+      "Fear1",
+      "-NativeQaReopenLevelSha256",
+      "b0234c78057b81fba9847ea0421933d9ad50d7acc78e841d0c0af8fd49aa3bc4",
+      "-NativeQaWorldPreset",
+      "bclib:normal",
+      "-NativeQaRequireDefaultWorldPreset",
+      "-NativeQaExpectedInitialItem",
+      "ftbquests:book"
+    ]
+  },
+  "creation": {
+    "status": "PASS",
+    "evidence": {
+      "label": "fear-public497-native-betterx-r2",
+      "exitCode": 0,
+      "sha256": {
+        "launch.json": "97672edc3e9ce00755534fa0b551c2214e87db0345e0ffdba028d2669a7dc0c5",
+        "exit.json": "f95cf054532a0ea7ad602c5799df07a79208f43e584770aabc5a5e72bb99642c",
+        "native-steam-qa.jsonl": "7a60c9137cadafd4467483e4f02744f2d7a148217e2bce6884a55f19bafa9ee4",
+        "stdout.log": "f16bef42c75deafbf241ce408e8fd6c619c1265b9a99b2ea81b66c774140977b",
+        "stderr.log": "f4c277fe9b0b2b33223f34dfa42972fadc0e740e54de15f0813be721c715943d"
+      }
+    },
+    "nativePreset": {
+      "kind": "native_world_preset",
+      "utc": "2026-11-13T20:38:01.565114900Z",
+      "selectedPreset": "bclib:normal",
+      "defaultPreset": "bclib:normal",
+      "nativeButtonCallback": true,
+      "authorDefaultVerified": true
+    },
+    "created": {
+      "kind": "world_created",
+      "utc": "2026-11-13T20:39:26.030837Z",
+      "gameMode": "SURVIVAL",
+      "commands": false
+    },
+    "steamTestContinued": false,
+    "immediateItemSample": "Expected item was absent from the native host inventory.",
+    "laterAuthorItemSaved": {
+      "id": "ftbquests:book",
+      "slot": 6,
+      "count": 1,
+      "sources": [
+        "playerdata",
+        "level.dat"
+      ],
+      "levelDatSha256": "1e4725d71b87c34975a2bde9f66648d01f2216816fa2c531701cdc30fede7f62"
+    },
+    "authorQuestsLoaded": {
+      "chapterGroups": 3,
+      "chapters": 9,
+      "quests": 132,
+      "tutorialSha256": "1f3ffb2b9dc09c93eb47e23620b7360a9b83804aa63d6bab1510b55fda0dda26"
+    }
+  },
+  "earlierAttempts": [
+    {
+      "evidence": {
+        "label": "fear-public497-native-betterx",
+        "exitCode": 1,
+        "sha256": {
+          "launch.json": "11ac9eaae7ea655b781b9d004fa6290c68ac9a068d609628ab88763a9d8f3992",
+          "exit.json": "7a088012e7d8d09ffe5dc828f95d81d529d5bc6e01e7652ae419f5c2ad8f46e2",
+          "stdout.log": "88d6b07414621444983f6e1896ae9f8f482821f411bd21fe397f9bfd0e350c42",
+          "stderr.log": "c644dd6051c3843e07b19a7d555655d6baf32151d5d6ecb04bd39715b26e4bb4"
+        }
+      },
+      "classification": "QA manifest declared a class without its package. JVM exited before Minecraft; test manifest corrected."
+    },
+    {
+      "evidence": {
+        "label": "fear-public497-final-reopen",
+        "exitCode": 0,
+        "sha256": {
+          "launch.json": "3518ff4a84c3e39061bbf9a0276eb7402e7748ef35b52b410aa48a3f510857c4",
+          "exit.json": "6024e9d8119c0957083e6ba074e9ee78e56735288d3a215ca36b9b00fd57f3b4",
+          "native-steam-qa.jsonl": "b847d301dc196906117d2a28a95e60507396636f7baea12d6da534e62a5f1807",
+          "stdout.log": "7293736a7f88d33a621c39290f60c71b24318d627bdb77b8f879a5576cb436cd",
+          "stderr.log": "c960fd3df5cf845e4c1948c9c316bbe870f6f56e87a972e78c02e3c011b695bb"
+        }
+      },
+      "classification": "Author No Report Button client mixin disabled and renamed the Reports control after actual publication. Exact UI mod excluded from candidate; No Chat Reports retained.",
+      "failedAssertion": "Published pause menu did not replace Share to LAN with Reports."
+    }
+  ],
+  "acceptance": {
+    "evidence": {
+      "label": "fear-public497-corrected-reopen",
+      "exitCode": 0,
+      "sha256": {
+        "launch.json": "f098716e0944d5818099dc011cb98687073f4090d543841055062c192bcc3642",
+        "exit.json": "a6a0a8eb856803b6c91b27339d82c47fa5963d7eb0286d2b82d99594a07305b3",
+        "native-steam-qa.jsonl": "9ec4761a8b136970641205b0c3639005dc4f68868f34aaf881f6e0906c2327cb",
+        "stdout.log": "552077d5302c25b5e233288ac1625c4295a378a7f593af69ff3319107ae82193",
+        "stderr.log": "2cfeb8facfe551b566b544d3df7f21b23f7e3363614577746b19959d7a3ba494"
+      }
+    },
+    "world": {
+      "kind": "world_reopened",
+      "utc": "2026-11-13T21:02:57.270657700Z",
+      "commands": false,
+      "gameMode": "SURVIVAL"
+    },
+    "dimensions": {
+      "overworld": {
+        "generator": "net.minecraft.world.level.levelgen.NoiseBasedChunkGenerator",
+        "betterEndBiomeCount": 0
+      },
+      "nether": {
+        "generator": "org.betterx.bclib.api.v2.generator.BCLChunkGenerator",
+        "betterEndBiomeCount": 0
+      },
+      "end": {
+        "generator": "org.betterx.bclib.api.v2.generator.BCLChunkGenerator",
+        "betterEndBiomeCount": 19
+      }
+    },
+    "titles": [
+      {
+        "kind": "window_title",
+        "utc": "2026-11-13T21:02:05.066433600Z",
+        "phase": "startup",
+        "actual": "Fear Nightfall: Remains of Chaos",
+        "nativeWindow": true,
+        "matches": true,
+        "expected": "Fear Nightfall: Remains of Chaos"
+      },
+      {
+        "kind": "window_title",
+        "utc": "2026-11-13T21:03:08.396817500Z",
+        "phase": "world_before_steam",
+        "actual": "Fear Nightfall: Remains of Chaos",
+        "nativeWindow": true,
+        "matches": true,
+        "expected": "Fear Nightfall: Remains of Chaos"
+      },
+      {
+        "kind": "window_title",
+        "utc": "2026-11-13T21:03:11.791862700Z",
+        "phase": "world_after_steam",
+        "actual": "Fear Nightfall: Remains of Chaos",
+        "nativeWindow": true,
+        "matches": true,
+        "expected": "Fear Nightfall: Remains of Chaos"
+      }
+    ],
+    "initialPause": {
+      "kind": "pause_before_publish",
+      "utc": "2026-11-13T21:03:09.343319300Z",
+      "nativeButtonCallback": true,
+      "shareToLan": 1,
+      "worldSettingsOrCheats": false
+    },
+    "publication": {
+      "kind": "published",
+      "utc": "2026-11-13T21:03:10.807217400Z",
+      "nativeListener": true,
+      "settingsClosedOnPublication": true
+    },
+    "permissions": {
+      "kind": "native_permissions",
+      "utc": "2026-11-13T21:03:11.448393500Z",
+      "checks": {
+        "savedSurvivalMode": true,
+        "guestAfter": false,
+        "guestBefore": false,
+        "hostBefore": false,
+        "savedAllowsCommands": false,
+        "hostAfter": false
+      },
+      "syntheticGuest": true,
+      "actualPlayerList": true
+    },
+    "publishedPause": {
+      "kind": "pause_after_publish",
+      "utc": "2026-11-13T21:03:11.702174300Z",
+      "reports": true,
+      "shareToLanGone": true,
+      "worldSettingsOrCheats": false
+    },
+    "chat": {
+      "kind": "chat",
+      "utc": "2026-11-13T21:03:11.784453700Z",
+      "redCloseAction": true,
+      "blueInviteAction": true,
+      "localPortLines": 1,
+      "nativeLocalHistory": true,
+      "privateEndpointRecorded": false,
+      "greenCopyableAddress": true,
+      "readyLines": 1
+    },
+    "steamLobby": {
+      "kind": "steam_lobby_metadata",
+      "utc": "2026-11-13T21:03:11.801913700Z",
+      "actualSteamLobby": true,
+      "displayFlag": true,
+      "matchesWorldName": true,
+      "secondAccountDiscovery": "NOT RUN",
+      "matchesLauncherPlayer": true
+    },
+    "questBook": {
+      "kind": "native_initial_item",
+      "utc": "2026-11-13T21:03:11.907253Z",
+      "slot": 6,
+      "item": "ftbquests:book",
+      "present": true
+    },
+    "nativeSave": {
+      "kind": "world_saved",
+      "utc": "2026-11-13T21:03:14.360021500Z",
+      "levelDatBytes": 236078,
+      "levelDatSha256": "643cabc92b7702e2e92cd0e6bc5a28973e35cc2666852456b83e80094f69f4c7"
+    },
+    "postExitSaveSha256": "6d0817d3dd7feea11aab76c895f2637e21ccdcc150a96e22d4874b1eecf30689",
+    "result": {
+      "kind": "complete",
+      "utc": "2026-11-13T21:03:14.362441100Z",
+      "guestConnection": "NOT RUN",
+      "nativeSteamHost": "PASS"
+    },
+    "modList": {
+      "before": 380,
+      "after": 379,
+      "removed": [
+        "noreportbutton"
+      ],
+      "added": [],
+      "otherVersionOrSourceChanges": false,
+      "noChatReportsVersion": "1.20.1-v2.2.3"
+    }
+  },
+  "realSecondAccount": "NOT RUN",
+  "computerUse": false,
+  "nativeProofSha256": "4f12715933406e4e1c6803cc379a9a7f5a76f70aa851218702ecc5af232c774d",
+  "authorClientLockSha256": "003898046c2bbe50153769b834a68bfc28a4fe6e9d1a99393b42868ad2ec1158",
+  "upstreamLockSha256": "2b4ad64dd576c354a5eb01326ce6e6bde4fc08650ec5e60494d6d79d68f396dc",
+  "loadedAuthorModCount": 376,
+  "productionJavaArgumentFileRemoved": true,
+  "publicInstall": {
+    "outcome": "PASS",
+    "revision": "8a1025b4273487f0cba5b65614c10a1808fdf2ce",
+    "manifestSha256": "1a16e07e3da316f8f6c5dbd4d53bd4904cee521209def4b201ca3259c3a1b017",
+    "librarySha256": "cc507188d8cfe6d3d5b7de10c2b39cc1f85c618e2c67e252423a409d8cb93028",
+    "launcherAssemblySha256": "532f9237f5c226c18bbe4fb885389ea2b13ac31de8f24932b03fb3b7d5947b4a",
+    "gameAssets": 183,
+    "gameAssetBytes": 922854829,
+    "installedFiles": 1688,
+    "installedBytes": 935276667.0
+  }
+}
