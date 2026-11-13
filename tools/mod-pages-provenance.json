@@ -1,0 +1,2031 @@
+{
+  "authorArchiveSha256": "966d6f4002bf4e70f27b9d3452f7843058a116d6733e00ed6fc3bbde1db89890",
+  "authorDistributionComponents": {
+    "connectorextras": "Embedded compatibility aliases use the exact Connector Extras distribution, including amecsapi, reach_entity_attributes, forgeconfigapiport and modmenu.",
+    "teraphobia": "The exact author override is the Remains of Chaos edition. No separate project for this exact edition was verified. Use the author pack release."
+  },
+  "auxiliaryFiles": {
+    "configureddefaults_v8_0_4_1_20_1_forge": {
+      "authorManifestType": "LANGPROVIDER",
+      "path": "mods/ConfiguredDefaults-v8.0.4-1.20.1-Forge.jar",
+      "sourceSha256": "941bad1016997891fd23634397fa720a63d520c4dedbeea410270c2c039a883b",
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/configured-defaults"
+    }
+  },
+  "connectorFabricSources": {
+    "bclib": {
+      "authorModId": "bclib",
+      "authorVersion": "3.0.14",
+      "nativeSourceFile": "bclib-3.0.14_mapped_srg_1.20.1.jar",
+      "nativeVersion": "3.0.14",
+      "nestedPaths": [],
+      "parentPath": "mods/bclib-3.0.14.jar",
+      "parentSha256": "391fa2a8d7e369b088c66d1f230c3951e1d83f19d60555b2efea5394d8bcfc51",
+      "runtimeRemappedSha256": "41d36fe7d103cf95a9dfb59d9f2524cf08122794215084d7e121066eae93b274",
+      "sha256": "391fa2a8d7e369b088c66d1f230c3951e1d83f19d60555b2efea5394d8bcfc51",
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/bclib"
+    },
+    "betterend": {
+      "authorModId": "betterend",
+      "authorVersion": "4.0.11",
+      "nativeSourceFile": "better-end-4.0.11_mapped_srg_1.20.1.jar",
+      "nativeVersion": "4.0.11",
+      "nestedPaths": [],
+      "parentPath": "mods/better-end-4.0.11.jar",
+      "parentSha256": "285feee4a2602ac66f7b4d92f0d972ac872aec513c2b61a8f6f447ca3dc08420",
+      "runtimeRemappedSha256": "633993fbc440cf56017b75687667324ed4adfd2efbba50252dfb23b87223da71",
+      "sha256": "285feee4a2602ac66f7b4d92f0d972ac872aec513c2b61a8f6f447ca3dc08420",
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/betterend"
+    },
+    "blue_endless_jankson": {
+      "authorModId": "blue_endless_jankson",
+      "authorVersion": "1.2.2",
+      "nativeSourceFile": "owo-lib-0.11.2+1.20$jankson-1.2.2_mapped_srg_1.20.1.jar",
+      "nativeVersion": "1.2.2",
+      "nestedPaths": [
+        "META-INF/jars/jankson-1.2.2.jar"
+      ],
+      "parentPath": "mods/owo-lib-0.11.2+1.20.jar",
+      "parentSha256": "1c249c30d3e50bba5cb35e0c3acebf4bd5f969bd33402de2f3a6a619fd688d12",
+      "runtimeRemappedSha256": "3f80e7a856e57305230e785e81df78a187fb3da91026c8b3f79c60a706bc36d5",
+      "sha256": "d12f3f45edb3aa0e13a822856b95d36a7f9f297a4886551f92933063c757a054",
+      "websiteUrl": "https://github.com/falkreon/Jankson"
+    },
+    "cardinal_components_base": {
+      "authorModId": "cardinal-components-base",
+      "authorVersion": "5.2.2",
+      "nativeSourceFile": "derelict-2.1.0$cardinal-components-base-5.2.2_mapped_srg_1.20.1.jar",
+      "nativeVersion": "5.2.2",
+      "nestedPaths": [
+        "META-INF/jars/cardinal-components-base-5.2.2.jar"
+      ],
+      "parentPath": "mods/derelict-2.1.0.jar",
+      "parentSha256": "e65b38c6e87d4bafa46691b71e2a8bbfb27f1627d1de3017430c6d96f378cad8",
+      "runtimeRemappedSha256": "d3ad6cde35924a9d14d6738be1ea8aeae6284853f46ae4e4f6fd7d91f314f23c",
+      "sha256": "f0753b20a1e0172bc60ab084b1bec2587f27e438e767ac4fafd977130b1e9030",
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/cardinal-components-api"
+    },
+    "cardinal_components_entity": {
+      "authorModId": "cardinal-components-entity",
+      "authorVersion": "5.2.2",
+      "nativeSourceFile": "derelict-2.1.0$cardinal-components-entity-5.2.2_mapped_srg_1.20.1.jar",
+      "nativeVersion": "5.2.2",
+      "nestedPaths": [
+        "META-INF/jars/cardinal-components-entity-5.2.2.jar"
+      ],
+      "parentPath": "mods/derelict-2.1.0.jar",
+      "parentSha256": "e65b38c6e87d4bafa46691b71e2a8bbfb27f1627d1de3017430c6d96f378cad8",
+      "runtimeRemappedSha256": "cda8fff05b2e41bdb55b5b25c00a7faa550fbc4b00a21fa7f0d2b74eb73917a6",
+      "sha256": "42390a78a6518587ecd5be585fa6824d3445b363bb7f613a6deaac049da369e8",
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/cardinal-components-api"
+    },
+    "custom_entity_attributes": {
+      "authorModId": "custom_entity_attributes",
+      "authorVersion": "1.0.0",
+      "nativeSourceFile": "CustomEntityAttributes-FABRIC-1.20.X-1.0.0_mapped_srg_1.20.1.jar",
+      "nativeVersion": "1.0.0",
+      "nestedPaths": [],
+      "parentPath": "mods/CustomEntityAttributes-FABRIC-1.20.X-1.0.0.jar",
+      "parentSha256": "07076d15002f677d408b8838ba75c861c83a461e8e1623c8d63847f7380d9710",
+      "runtimeRemappedSha256": "be5a47bf6850ac325283ed0c220a02ed582fb2a1592adb8e65a72b62f1b833d5",
+      "sha256": "07076d15002f677d408b8838ba75c861c83a461e8e1623c8d63847f7380d9710",
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/cea"
+    },
+    "derelict": {
+      "authorModId": "derelict",
+      "authorVersion": "2.1.0",
+      "nativeSourceFile": "derelict-2.1.0_mapped_srg_1.20.1.jar",
+      "nativeVersion": "2.1.0",
+      "nestedPaths": [],
+      "parentPath": "mods/derelict-2.1.0.jar",
+      "parentSha256": "e65b38c6e87d4bafa46691b71e2a8bbfb27f1627d1de3017430c6d96f378cad8",
+      "runtimeRemappedSha256": "352cd37219d9fef916a49112d14d9abe94b037ed412cd4ca926c2f60d75738cd",
+      "sha256": "e65b38c6e87d4bafa46691b71e2a8bbfb27f1627d1de3017430c6d96f378cad8",
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/mim1q-derelict"
+    },
+    "eldritch_end": {
+      "authorModId": "eldritch_end",
+      "authorVersion": "0.3.4",
+      "nativeSourceFile": "Eldritch_End-FORGE-MC1.20.1-0.3.4_mapped_srg_1.20.1.jar",
+      "nativeVersion": "0.3.4",
+      "nestedPaths": [],
+      "parentPath": "mods/Eldritch_End-FORGE-MC1.20.1-0.3.4.jar",
+      "parentSha256": "f1ca64e66daefefda1c7406e104a0d38d5a0c75c69d5620fce19dba1f444566c",
+      "runtimeRemappedSha256": "0db7504ef6da3245823aaea4fdbd9eee60a2515a36c4188fda8119a7ae7848af",
+      "sha256": "f1ca64e66daefefda1c7406e104a0d38d5a0c75c69d5620fce19dba1f444566c",
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/eldritch-end"
+    },
+    "fabric_language_kotlin": {
+      "authorModId": "fabric-language-kotlin",
+      "authorVersion": "1.11.0+kotlin.2.0.0",
+      "nativeSourceFile": "fabric-language-kotlin-1.11.0+kotlin.2.0.0_mapped_srg_1.20.1.jar",
+      "nativeVersion": "1.11.0kotlin.2.0.0",
+      "nestedPaths": [],
+      "parentPath": "mods/fabric-language-kotlin-1.11.0+kotlin.2.0.0.jar",
+      "parentSha256": "e4f2b0d53a270601e3debd5dcc23ea769f051d30e02692e02a1eb013184505f6",
+      "runtimeRemappedSha256": "baace215d5130c4d74502f35c22c41132730ea34de0df1382f39b40ea31fe9a5",
+      "sha256": "e4f2b0d53a270601e3debd5dcc23ea769f051d30e02692e02a1eb013184505f6",
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/fabric-language-kotlin"
+    },
+    "fancy_hotbar": {
+      "authorModId": "fancy_hotbar",
+      "authorVersion": "1.0.0",
+      "nativeSourceFile": "FancyHotbar-Fabric-1.0.0_mapped_srg_1.20.1.jar",
+      "nativeVersion": "1.0.0",
+      "nestedPaths": [],
+      "parentPath": "mods/FancyHotbar-Fabric-1.0.0.jar",
+      "parentSha256": "fc88f792337782939341d46a1fb150aa7418269638c971e8d6ce72eb622b2062",
+      "runtimeRemappedSha256": "4006f003691fc72350caeada82e1e7a065c0629fd51addee7eac9b8a8af65979",
+      "sha256": "fc88f792337782939341d46a1fb150aa7418269638c971e8d6ce72eb622b2062",
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/fancy-hotbar"
+    },
+    "faster_random": {
+      "authorModId": "faster-random",
+      "authorVersion": "5.1.0",
+      "nativeSourceFile": "fasterrandom-5.1.0_mapped_srg_1.20.1.jar",
+      "nativeVersion": "5.1.0",
+      "nestedPaths": [],
+      "parentPath": "mods/fasterrandom-5.1.0.jar",
+      "parentSha256": "40b326e9c98610b54be67751e618193e671cc907240d94a57085259b10cedf08",
+      "runtimeRemappedSha256": "eb4370a8d11305c2069cdf8b1937648acd739ef9c353a258253a58a212478108",
+      "sha256": "40b326e9c98610b54be67751e618193e671cc907240d94a57085259b10cedf08",
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/faster-random"
+    },
+    "gimm1q": {
+      "authorModId": "gimm1q",
+      "authorVersion": "0.6.1+1.20.1",
+      "nativeSourceFile": "derelict-2.1.0$gimm1q-0.6.1+1.20.1_mapped_srg_1.20.1.jar",
+      "nativeVersion": "0.6.11.20.1",
+      "nestedPaths": [
+        "META-INF/jars/gimm1q-0.6.1+1.20.1.jar"
+      ],
+      "parentPath": "mods/derelict-2.1.0.jar",
+      "parentSha256": "e65b38c6e87d4bafa46691b71e2a8bbfb27f1627d1de3017430c6d96f378cad8",
+      "runtimeRemappedSha256": "2dd98f315345d124f77156deec9ea5317fac3fac87ce3003a7804f9e5b4a0902",
+      "sha256": "901d2c6b10d84e7c313812276225b17a8e045cdc1111bfea2c8d8c3ae5b48449",
+      "websiteUrl": "https://github.com/mim1q/gimm1q"
+    },
+    "org_jetbrains_kotlin_kotlin_reflect": {
+      "authorModId": "org_jetbrains_kotlin_kotlin-reflect",
+      "authorVersion": "2.0.0",
+      "nativeSourceFile": "fabric-language-kotlin-1.11.0+kotlin.2.0.0$kotlin-reflect-2.0.0_mapped_srg_1.20.1.jar",
+      "nativeVersion": "2.0.0",
+      "nestedPaths": [
+        "META-INF/jars/kotlin-reflect-2.0.0.jar"
+      ],
+      "parentPath": "mods/fabric-language-kotlin-1.11.0+kotlin.2.0.0.jar",
+      "parentSha256": "e4f2b0d53a270601e3debd5dcc23ea769f051d30e02692e02a1eb013184505f6",
+      "runtimeRemappedSha256": "48ebd7ecb9808ae681aac28d895d480804079481de37c548075b78d6eb6371d7",
+      "sha256": "910e2a076093f932145a871835d24dac65b2ff52c02dd4a4027835190c22d55b",
+      "websiteUrl": "https://github.com/JetBrains/kotlin"
+    },
+    "org_jetbrains_kotlin_kotlin_stdlib": {
+      "authorModId": "org_jetbrains_kotlin_kotlin-stdlib",
+      "authorVersion": "2.0.0",
+      "nativeSourceFile": "fabric-language-kotlin-1.11.0+kotlin.2.0.0$kotlin-stdlib-2.0.0_mapped_srg_1.20.1.jar",
+      "nativeVersion": "2.0.0",
+      "nestedPaths": [
+        "META-INF/jars/kotlin-stdlib-2.0.0.jar"
+      ],
+      "parentPath": "mods/fabric-language-kotlin-1.11.0+kotlin.2.0.0.jar",
+      "parentSha256": "e4f2b0d53a270601e3debd5dcc23ea769f051d30e02692e02a1eb013184505f6",
+      "runtimeRemappedSha256": "31d1ba3f346b956915847ab27be937ecb944b29005ef8cfb582ef6aff2a132bf",
+      "sha256": "140082000d3468007dbf12373e3f1f8957f24e71e314acf853f30e922694241f",
+      "websiteUrl": "https://github.com/JetBrains/kotlin"
+    },
+    "org_jetbrains_kotlin_kotlin_stdlib_jdk7": {
+      "authorModId": "org_jetbrains_kotlin_kotlin-stdlib-jdk7",
+      "authorVersion": "2.0.0",
+      "nativeSourceFile": "fabric-language-kotlin-1.11.0+kotlin.2.0.0$kotlin-stdlib-jdk7-2.0.0_mapped_srg_1.20.1.jar",
+      "nativeVersion": "2.0.0",
+      "nestedPaths": [
+        "META-INF/jars/kotlin-stdlib-jdk7-2.0.0.jar"
+      ],
+      "parentPath": "mods/fabric-language-kotlin-1.11.0+kotlin.2.0.0.jar",
+      "parentSha256": "e4f2b0d53a270601e3debd5dcc23ea769f051d30e02692e02a1eb013184505f6",
+      "runtimeRemappedSha256": "4a46b29af173389093461eed8247772e2a6dc72d6d74de5578c17c27017fd8d7",
+      "sha256": "229d457f702b652234bc38160d7af5c25463b1e7bd91b5b433e7f0f17a88219b",
+      "websiteUrl": "https://github.com/JetBrains/kotlin"
+    },
+    "org_jetbrains_kotlin_kotlin_stdlib_jdk8": {
+      "authorModId": "org_jetbrains_kotlin_kotlin-stdlib-jdk8",
+      "authorVersion": "2.0.0",
+      "nativeSourceFile": "fabric-language-kotlin-1.11.0+kotlin.2.0.0$kotlin-stdlib-jdk8-2.0.0_mapped_srg_1.20.1.jar",
+      "nativeVersion": "2.0.0",
+      "nestedPaths": [
+        "META-INF/jars/kotlin-stdlib-jdk8-2.0.0.jar"
+      ],
+      "parentPath": "mods/fabric-language-kotlin-1.11.0+kotlin.2.0.0.jar",
+      "parentSha256": "e4f2b0d53a270601e3debd5dcc23ea769f051d30e02692e02a1eb013184505f6",
+      "runtimeRemappedSha256": "1021959b9ffd403e084f8c4691562ea3c5d077080094783d302fd5201e9a1678",
+      "sha256": "9c8931915ee20d8372dd610ceb132e7fb0dc25f0b0b41df9fba1582334b2aa2e",
+      "websiteUrl": "https://github.com/JetBrains/kotlin"
+    },
+    "org_jetbrains_kotlinx_atomicfu_jvm": {
+      "authorModId": "org_jetbrains_kotlinx_atomicfu-jvm",
+      "authorVersion": "0.24.0",
+      "nativeSourceFile": "fabric-language-kotlin-1.11.0+kotlin.2.0.0$atomicfu-jvm-0.24.0_mapped_srg_1.20.1.jar",
+      "nativeVersion": "0.24.0",
+      "nestedPaths": [
+        "META-INF/jars/atomicfu-jvm-0.24.0.jar"
+      ],
+      "parentPath": "mods/fabric-language-kotlin-1.11.0+kotlin.2.0.0.jar",
+      "parentSha256": "e4f2b0d53a270601e3debd5dcc23ea769f051d30e02692e02a1eb013184505f6",
+      "runtimeRemappedSha256": "2bc420de8e17e8eec2c43f52112f703a21f9862df069d4b25dee1b0c3e82fd98",
+      "sha256": "4ce8605a6c609ef134885ab59dbabdcf9cded6a2fee0bf5a7d27c2960aed8e03",
+      "websiteUrl": "https://github.com/Kotlin/kotlinx-atomicfu"
+    },
+    "org_jetbrains_kotlinx_kotlinx_coroutines_core_jvm": {
+      "authorModId": "org_jetbrains_kotlinx_kotlinx-coroutines-core-jvm",
+      "authorVersion": "1.8.1",
+      "nativeSourceFile": "fabric-language-kotlin-1.11.0+kotlin.2.0.0$kotlinx-coroutines-core-jvm-1.8.1_mapped_srg_1.20.1.jar",
+      "nativeVersion": "1.8.1",
+      "nestedPaths": [
+        "META-INF/jars/kotlinx-coroutines-core-jvm-1.8.1.jar"
+      ],
+      "parentPath": "mods/fabric-language-kotlin-1.11.0+kotlin.2.0.0.jar",
+      "parentSha256": "e4f2b0d53a270601e3debd5dcc23ea769f051d30e02692e02a1eb013184505f6",
+      "runtimeRemappedSha256": "f95f63186f1b55ded5c88456d651b356640816c265c0bc8b5a05ebb128a9aeb1",
+      "sha256": "05a1d627325439dd5270c4004b29afca9bfb726021ee57eeac2b1e69af8a189d",
+      "websiteUrl": "https://github.com/Kotlin/kotlinx.coroutines"
+    },
+    "org_jetbrains_kotlinx_kotlinx_coroutines_jdk8": {
+      "authorModId": "org_jetbrains_kotlinx_kotlinx-coroutines-jdk8",
+      "authorVersion": "1.8.1",
+      "nativeSourceFile": "fabric-language-kotlin-1.11.0+kotlin.2.0.0$kotlinx-coroutines-jdk8-1.8.1_mapped_srg_1.20.1.jar",
+      "nativeVersion": "1.8.1",
+      "nestedPaths": [
+        "META-INF/jars/kotlinx-coroutines-jdk8-1.8.1.jar"
+      ],
+      "parentPath": "mods/fabric-language-kotlin-1.11.0+kotlin.2.0.0.jar",
+      "parentSha256": "e4f2b0d53a270601e3debd5dcc23ea769f051d30e02692e02a1eb013184505f6",
+      "runtimeRemappedSha256": "abbdd216885f3804fbf72392ada5f93f1c1d6195a519476290f00f4bddfbefc6",
+      "sha256": "099d98b87e311af8bf387dbe926d7d5121881168c2a4053c4b0673db138208f2",
+      "websiteUrl": "https://github.com/Kotlin/kotlinx.coroutines"
+    },
+    "org_jetbrains_kotlinx_kotlinx_datetime_jvm": {
+      "authorModId": "org_jetbrains_kotlinx_kotlinx-datetime-jvm",
+      "authorVersion": "0.6.0",
+      "nativeSourceFile": "fabric-language-kotlin-1.11.0+kotlin.2.0.0$kotlinx-datetime-jvm-0.6.0_mapped_srg_1.20.1.jar",
+      "nativeVersion": "0.6.0",
+      "nestedPaths": [
+        "META-INF/jars/kotlinx-datetime-jvm-0.6.0.jar"
+      ],
+      "parentPath": "mods/fabric-language-kotlin-1.11.0+kotlin.2.0.0.jar",
+      "parentSha256": "e4f2b0d53a270601e3debd5dcc23ea769f051d30e02692e02a1eb013184505f6",
+      "runtimeRemappedSha256": "596ad805eed305f088b9bac65fd10c8bd6b75d15c3743df453c449f077a3216d",
+      "sha256": "e4b2fc2533141a2a8ded8907920aae2153de131533b7c2113df90699145ae6be",
+      "websiteUrl": "https://github.com/Kotlin/kotlinx-datetime"
+    },
+    "org_jetbrains_kotlinx_kotlinx_serialization_cbor_jvm": {
+      "authorModId": "org_jetbrains_kotlinx_kotlinx-serialization-cbor-jvm",
+      "authorVersion": "1.6.3",
+      "nativeSourceFile": "fabric-language-kotlin-1.11.0+kotlin.2.0.0$kotlinx-serialization-cbor-jvm-1.6.3_mapped_srg_1.20.1.jar",
+      "nativeVersion": "1.6.3",
+      "nestedPaths": [
+        "META-INF/jars/kotlinx-serialization-cbor-jvm-1.6.3.jar"
+      ],
+      "parentPath": "mods/fabric-language-kotlin-1.11.0+kotlin.2.0.0.jar",
+      "parentSha256": "e4f2b0d53a270601e3debd5dcc23ea769f051d30e02692e02a1eb013184505f6",
+      "runtimeRemappedSha256": "8dc30b5079aa9b8ec8b051744d218131b6680673a8395c1147ec4b85e9983575",
+      "sha256": "4b1d1f09623e12cd1110d51a7960532db36ea740f843b822a6887d7350b398d2",
+      "websiteUrl": "https://github.com/Kotlin/kotlinx.serialization"
+    },
+    "org_jetbrains_kotlinx_kotlinx_serialization_core_jvm": {
+      "authorModId": "org_jetbrains_kotlinx_kotlinx-serialization-core-jvm",
+      "authorVersion": "1.6.3",
+      "nativeSourceFile": "fabric-language-kotlin-1.11.0+kotlin.2.0.0$kotlinx-serialization-core-jvm-1.6.3_mapped_srg_1.20.1.jar",
+      "nativeVersion": "1.6.3",
+      "nestedPaths": [
+        "META-INF/jars/kotlinx-serialization-core-jvm-1.6.3.jar"
+      ],
+      "parentPath": "mods/fabric-language-kotlin-1.11.0+kotlin.2.0.0.jar",
+      "parentSha256": "e4f2b0d53a270601e3debd5dcc23ea769f051d30e02692e02a1eb013184505f6",
+      "runtimeRemappedSha256": "7739ebf8c442a45861a492263b606d01c7c23d27a467a57c6713ba6fdaa8eaf8",
+      "sha256": "7c9f917cb451b2c37ee167d780eac250399a0e74cb11d89fb80b23cc271884ad",
+      "websiteUrl": "https://github.com/Kotlin/kotlinx.serialization"
+    },
+    "org_jetbrains_kotlinx_kotlinx_serialization_json_jvm": {
+      "authorModId": "org_jetbrains_kotlinx_kotlinx-serialization-json-jvm",
+      "authorVersion": "1.6.3",
+      "nativeSourceFile": "fabric-language-kotlin-1.11.0+kotlin.2.0.0$kotlinx-serialization-json-jvm-1.6.3_mapped_srg_1.20.1.jar",
+      "nativeVersion": "1.6.3",
+      "nestedPaths": [
+        "META-INF/jars/kotlinx-serialization-json-jvm-1.6.3.jar"
+      ],
+      "parentPath": "mods/fabric-language-kotlin-1.11.0+kotlin.2.0.0.jar",
+      "parentSha256": "e4f2b0d53a270601e3debd5dcc23ea769f051d30e02692e02a1eb013184505f6",
+      "runtimeRemappedSha256": "03334833ffcddd70d6c26cdb149f2ed3cca870931585f26782746b768f6fcd27",
+      "sha256": "f7ec8ea8b4e50ee092831c0825124d6cb60c7de14a61f9a6aadc57f75a2cde59",
+      "websiteUrl": "https://github.com/Kotlin/kotlinx.serialization"
+    },
+    "owo": {
+      "authorModId": "owo",
+      "authorVersion": "0.11.2+1.20",
+      "nativeSourceFile": "owo-lib-0.11.2+1.20_mapped_srg_1.20.1.jar",
+      "nativeVersion": "0.11.21.20",
+      "nestedPaths": [],
+      "parentPath": "mods/owo-lib-0.11.2+1.20.jar",
+      "parentSha256": "1c249c30d3e50bba5cb35e0c3acebf4bd5f969bd33402de2f3a6a619fd688d12",
+      "runtimeRemappedSha256": "bfce6a03cc88b94ba92cd498ef694b0ae1da7c33eef0a5b0ab7090337684820b",
+      "sha256": "1c249c30d3e50bba5cb35e0c3acebf4bd5f969bd33402de2f3a6a619fd688d12",
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/owo-lib"
+    },
+    "wunderlib": {
+      "authorModId": "wunderlib",
+      "authorVersion": "1.1.5",
+      "nativeSourceFile": "bclib-3.0.14$wunderlib-1.1.5_mapped_srg_1.20.1.jar",
+      "nativeVersion": "1.1.5",
+      "nestedPaths": [
+        "META-INF/jars/wunderlib-1.1.5.jar"
+      ],
+      "parentPath": "mods/bclib-3.0.14.jar",
+      "parentSha256": "391fa2a8d7e369b088c66d1f230c3951e1d83f19d60555b2efea5394d8bcfc51",
+      "runtimeRemappedSha256": "cd682d9997ae4fca29868c76cc72bde252528d45b4cac74e9286c2f18e1841b4",
+      "sha256": "40a56fbcaca5c1a01abddba67bccc8f47d2b707eeb954ba2e129555790a2c09f",
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/wunderlib"
+    }
+  },
+  "excludedAuthorDependency": {
+    "fileId": 6599106,
+    "nativeModListContainsLuna": false,
+    "path": "mods/luna_minecraft-forge-5.3.1.jar",
+    "projectId": 880620,
+    "sha256": "26635aa32433775d9f10403d928a2008cb38173032c25720c52d33fd2cb4b1c8",
+    "sizeBytes": 623151
+  },
+  "individuallyVerified": {
+    "amecsapi": {
+      "matches": [
+        {
+          "coordinates": [
+            {
+              "artifact": "amecs-api",
+              "group": "de.siphalor"
+            }
+          ],
+          "nestedPaths": [
+            "META-INF/jarjar/amecsapi-1.5.3+mc1.20-pre1.jar"
+          ],
+          "parentPath": "mods/ConnectorExtras-1.11.2+1.20.1.jar",
+          "parentSha256": "10d149fc9348b57120f50e3f82ac6f7e544ae18f0b5b7342c0cab3af38f5acd8",
+          "selectedSourceSha256": "621a0ee26b7f0d2c49ac9c62723559406ffb9be3f890f7ae9d2ddf65855c0cc7"
+        }
+      ],
+      "nativeSourceFile": "amecsapi-1.5.3+mc1.20-pre1.jar",
+      "nativeVersion": "1.5.3+mc1.20-pre1",
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/connector-extras"
+    },
+    "apexcore": {
+      "matches": [
+        {
+          "coordinates": [
+            {
+              "artifact": "apexcore-1.20.1",
+              "group": "xyz.apex.forge"
+            }
+          ],
+          "nestedPaths": [
+            "META-INF/jarjar/apexcore-1.20.1-10.0.0.jar"
+          ],
+          "parentPath": "mods/fantasyfurniture-1.20.1-9.0.0.jar",
+          "parentSha256": "11035b688bb1018a7ebfdaa868ffe6ace87e533b678dcf3b689c15f79fe1af2c",
+          "selectedSourceSha256": "36697522b0e0e2a2a7438164877b1492a63e4a1bb0c59ba07bb011cab3e50e36"
+        }
+      ],
+      "nativeSourceFile": "apexcore-1.20.1-10.0.0.jar",
+      "nativeVersion": "10.0.0",
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/apexcore"
+    },
+    "architectury": {
+      "matches": [
+        {
+          "coordinates": [],
+          "nestedPaths": [],
+          "parentPath": "mods/architectury-9.2.14-forge.jar",
+          "parentSha256": "218b471d0b8a1f6cda14cfc1beb9eeb0df54304500acc6c5613d9b88ec65d9af",
+          "selectedSourceSha256": "218b471d0b8a1f6cda14cfc1beb9eeb0df54304500acc6c5613d9b88ec65d9af"
+        }
+      ],
+      "nativeSourceFile": "architectury-9.2.14-forge.jar",
+      "nativeVersion": "9.2.14",
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/architectury-api"
+    },
+    "commonality": {
+      "matches": [
+        {
+          "coordinates": [
+            {
+              "artifact": "apexcore-1.20.1",
+              "group": "xyz.apex.forge"
+            },
+            {
+              "artifact": "commonality-1.20.1",
+              "group": "xyz.apex.forge"
+            }
+          ],
+          "nestedPaths": [
+            "META-INF/jarjar/apexcore-1.20.1-10.0.0.jar",
+            "META-INF/jarjar/commonality-1.20.1-7.0.0.jar"
+          ],
+          "parentPath": "mods/fantasyfurniture-1.20.1-9.0.0.jar",
+          "parentSha256": "11035b688bb1018a7ebfdaa868ffe6ace87e533b678dcf3b689c15f79fe1af2c",
+          "selectedSourceSha256": "ed01f65f8b06728bccdba83be195123efbf9b9cb2a0851029f83ed25528d1ddf"
+        }
+      ],
+      "nativeSourceFile": "commonality-1.20.1-7.0.0.jar",
+      "nativeVersion": "7.0.0",
+      "websiteUrl": "https://github.com/ApexStudios-Archive/Commonality"
+    },
+    "conditional_mixin": {
+      "matches": [
+        {
+          "coordinates": [
+            {
+              "artifact": "conditional-mixin-forge",
+              "group": "com.github.Fallen-Breath.conditional-mixin"
+            }
+          ],
+          "nestedPaths": [
+            "META-INF/jars/conditional-mixin-forge-0.6.4.jar"
+          ],
+          "parentPath": "mods/foolproof-forge-1.0.4-1.20.1.jar",
+          "parentSha256": "76892fb03cf1e085982cafb4e8af6f6e551b526c90550acbdd7ba95184922fe4",
+          "selectedSourceSha256": "cd2807221062264a425bce507af65f9f2ecd47480cf5b06a09a7b5b03a749b49"
+        },
+        {
+          "coordinates": [
+            {
+              "artifact": "conditional-mixin-forge",
+              "group": "com.github.Fallen-Breath.conditional-mixin"
+            }
+          ],
+          "nestedPaths": [
+            "META-INF/jars/conditional-mixin-forge-0.6.4.jar"
+          ],
+          "parentPath": "mods/packanalytics-forge-1.0.4-1.20.1.jar",
+          "parentSha256": "5ac000a51b4ab04611a8276499a90f6e2962dc71e7899c61dd06812ccc35b5ed",
+          "selectedSourceSha256": "44feb2f21c7b7359d3322a744e6cac2799baaf05bba746e7b4e8af48b4b68ab1"
+        },
+        {
+          "coordinates": [
+            {
+              "artifact": "conditional-mixin-forge",
+              "group": "com.github.Fallen-Breath.conditional-mixin"
+            }
+          ],
+          "nestedPaths": [
+            "META-INF/jars/conditional-mixin-forge-0.6.4.jar"
+          ],
+          "parentPath": "mods/particle_core-0.3.3+1.20.1+forge.jar",
+          "parentSha256": "bd4023e4618333f3e6020a7d6f4db3ae7e8fe41b39a43f47e6a1da4fbd80bc1b",
+          "selectedSourceSha256": "f56dc39a0329372b07d731c5813b88d985dd4b34f2e5978515f983a35ea98f4d"
+        }
+      ],
+      "nativeSourceFile": "conditional-mixin-forge-0.6.4.jar",
+      "nativeVersion": "0.6.4",
+      "websiteUrl": "https://github.com/Fallen-Breath/conditional-mixin"
+    },
+    "connectorextras_architectury_bridge": {
+      "matches": [
+        {
+          "coordinates": [
+            {
+              "artifact": "architectury-bridge",
+              "group": "dev.su5ed.sinytra"
+            }
+          ],
+          "nestedPaths": [
+            "META-INF/jarjar/architectury-bridge-1.11.2+1.20.1.jar"
+          ],
+          "parentPath": "mods/ConnectorExtras-1.11.2+1.20.1.jar",
+          "parentSha256": "10d149fc9348b57120f50e3f82ac6f7e544ae18f0b5b7342c0cab3af38f5acd8",
+          "selectedSourceSha256": "623b7fc3f3c885fe433a3960e57786a21e5a7140ec73c2c19cc19b43e6d18347"
+        }
+      ],
+      "nativeSourceFile": "architectury-bridge-1.11.2+1.20.1.jar",
+      "nativeVersion": "1.11.2+1.20.1",
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/connector-extras"
+    },
+    "connectorextras_emi_bridge": {
+      "matches": [
+        {
+          "coordinates": [
+            {
+              "artifact": "emi-bridge",
+              "group": "dev.su5ed.sinytra"
+            }
+          ],
+          "nestedPaths": [
+            "META-INF/jarjar/emi-bridge-1.11.2+1.20.1.jar"
+          ],
+          "parentPath": "mods/ConnectorExtras-1.11.2+1.20.1.jar",
+          "parentSha256": "10d149fc9348b57120f50e3f82ac6f7e544ae18f0b5b7342c0cab3af38f5acd8",
+          "selectedSourceSha256": "f565f2a39cb8c5d7becb8da13ead527dc6d67086dfcf70c2dc835f58f8a3329e"
+        }
+      ],
+      "nativeSourceFile": "emi-bridge-1.11.2+1.20.1.jar",
+      "nativeVersion": "1.11.2+1.20.1",
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/connector-extras"
+    },
+    "connectorextras_energy_bridge": {
+      "matches": [
+        {
+          "coordinates": [
+            {
+              "artifact": "energy-bridge",
+              "group": "dev.su5ed.sinytra"
+            }
+          ],
+          "nestedPaths": [
+            "META-INF/jarjar/energy-bridge-1.11.2+1.20.1.jar"
+          ],
+          "parentPath": "mods/ConnectorExtras-1.11.2+1.20.1.jar",
+          "parentSha256": "10d149fc9348b57120f50e3f82ac6f7e544ae18f0b5b7342c0cab3af38f5acd8",
+          "selectedSourceSha256": "f981579bb69aaf821db98b8c687deafa6ad0867297e86df4196c26a5754c1c7e"
+        }
+      ],
+      "nativeSourceFile": "energy-bridge-1.11.2+1.20.1.jar",
+      "nativeVersion": "1.11.2+1.20.1",
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/connector-extras"
+    },
+    "connectorextras_geckolib_fabric_compat": {
+      "matches": [
+        {
+          "coordinates": [
+            {
+              "artifact": "geckolib-fabric-compat",
+              "group": "dev.su5ed.sinytra"
+            }
+          ],
+          "nestedPaths": [
+            "META-INF/jarjar/geckolib-fabric-compat-1.11.2+1.20.1.jar"
+          ],
+          "parentPath": "mods/ConnectorExtras-1.11.2+1.20.1.jar",
+          "parentSha256": "10d149fc9348b57120f50e3f82ac6f7e544ae18f0b5b7342c0cab3af38f5acd8",
+          "selectedSourceSha256": "62c566c230e5e8730aced206745280a7bd7971ef693278fb14a4b9934e8c8827"
+        }
+      ],
+      "nativeSourceFile": "geckolib-fabric-compat-1.11.2+1.20.1.jar",
+      "nativeVersion": "1.11.2+1.20.1",
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/connector-extras"
+    },
+    "connectorextras_jei_bridge": {
+      "matches": [
+        {
+          "coordinates": [
+            {
+              "artifact": "jei-bridge",
+              "group": "dev.su5ed.sinytra"
+            }
+          ],
+          "nestedPaths": [
+            "META-INF/jarjar/jei-bridge-1.11.2+1.20.1.jar"
+          ],
+          "parentPath": "mods/ConnectorExtras-1.11.2+1.20.1.jar",
+          "parentSha256": "10d149fc9348b57120f50e3f82ac6f7e544ae18f0b5b7342c0cab3af38f5acd8",
+          "selectedSourceSha256": "9b45bc26952e824fe819492b8959efd05b80e50295899f2f42bb659f7c2f551d"
+        }
+      ],
+      "nativeSourceFile": "jei-bridge-1.11.2+1.20.1.jar",
+      "nativeVersion": "1.11.2+1.20.1",
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/connector-extras"
+    },
+    "connectorextras_kubejs_bridge": {
+      "matches": [
+        {
+          "coordinates": [
+            {
+              "artifact": "kubejs-bridge",
+              "group": "dev.su5ed.sinytra"
+            }
+          ],
+          "nestedPaths": [
+            "META-INF/jarjar/kubejs-bridge-1.11.2+1.20.1.jar"
+          ],
+          "parentPath": "mods/ConnectorExtras-1.11.2+1.20.1.jar",
+          "parentSha256": "10d149fc9348b57120f50e3f82ac6f7e544ae18f0b5b7342c0cab3af38f5acd8",
+          "selectedSourceSha256": "962c2a3fe4a2e7663d9545116640d5f47def5bbb65f6d7b337bcac2c2a67a8e6"
+        }
+      ],
+      "nativeSourceFile": "kubejs-bridge-1.11.2+1.20.1.jar",
+      "nativeVersion": "1.11.2+1.20.1",
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/connector-extras"
+    },
+    "connectorextras_modmenu_bridge": {
+      "matches": [
+        {
+          "coordinates": [
+            {
+              "artifact": "modmenu-bridge",
+              "group": "dev.su5ed.sinytra"
+            }
+          ],
+          "nestedPaths": [
+            "META-INF/jarjar/modmenu-bridge-1.11.2+1.20.1.jar"
+          ],
+          "parentPath": "mods/ConnectorExtras-1.11.2+1.20.1.jar",
+          "parentSha256": "10d149fc9348b57120f50e3f82ac6f7e544ae18f0b5b7342c0cab3af38f5acd8",
+          "selectedSourceSha256": "b1b4115039f89e44a63edeff20fe7b082b3b232f6eb9ecabce295bc1c758667a"
+        }
+      ],
+      "nativeSourceFile": "modmenu-bridge-1.11.2+1.20.1.jar",
+      "nativeVersion": "1.11.2+1.20.1",
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/connector-extras"
+    },
+    "connectorextras_pehkui_bridge": {
+      "matches": [
+        {
+          "coordinates": [
+            {
+              "artifact": "pehkui-bridge",
+              "group": "dev.su5ed.sinytra"
+            }
+          ],
+          "nestedPaths": [
+            "META-INF/jarjar/pehkui-bridge-1.11.2+1.20.1.jar"
+          ],
+          "parentPath": "mods/ConnectorExtras-1.11.2+1.20.1.jar",
+          "parentSha256": "10d149fc9348b57120f50e3f82ac6f7e544ae18f0b5b7342c0cab3af38f5acd8",
+          "selectedSourceSha256": "f022b662fc09eea13a173a2cd98468b91834d23301d8d394cc362318fac73406"
+        }
+      ],
+      "nativeSourceFile": "pehkui-bridge-1.11.2+1.20.1.jar",
+      "nativeVersion": "1.11.2+1.20.1",
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/connector-extras"
+    },
+    "connectorextras_rei_bridge": {
+      "matches": [
+        {
+          "coordinates": [
+            {
+              "artifact": "rei-bridge",
+              "group": "dev.su5ed.sinytra"
+            }
+          ],
+          "nestedPaths": [
+            "META-INF/jarjar/rei-bridge-1.11.2+1.20.1.jar"
+          ],
+          "parentPath": "mods/ConnectorExtras-1.11.2+1.20.1.jar",
+          "parentSha256": "10d149fc9348b57120f50e3f82ac6f7e544ae18f0b5b7342c0cab3af38f5acd8",
+          "selectedSourceSha256": "37d0c07dcdd120ad748ac8a068ee0b953467f70cc82800f11bc9f1b09308c237"
+        }
+      ],
+      "nativeSourceFile": "rei-bridge-1.11.2+1.20.1.jar",
+      "nativeVersion": "1.11.2+1.20.1",
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/connector-extras"
+    },
+    "connectorextras_terrablender_bridge": {
+      "matches": [
+        {
+          "coordinates": [
+            {
+              "artifact": "terrablender-bridge",
+              "group": "dev.su5ed.sinytra"
+            }
+          ],
+          "nestedPaths": [
+            "META-INF/jarjar/terrablender-bridge-1.11.2+1.20.1.jar"
+          ],
+          "parentPath": "mods/ConnectorExtras-1.11.2+1.20.1.jar",
+          "parentSha256": "10d149fc9348b57120f50e3f82ac6f7e544ae18f0b5b7342c0cab3af38f5acd8",
+          "selectedSourceSha256": "52e4293d9653e36fbe917fea2ed3b5576fec402af76413efb5c32500a7424c8b"
+        }
+      ],
+      "nativeSourceFile": "terrablender-bridge-1.11.2+1.20.1.jar",
+      "nativeVersion": "1.11.2+1.20.1",
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/connector-extras"
+    },
+    "connectormod": {
+      "matches": [
+        {
+          "coordinates": [
+            "Embedded-Dependencies-Mod"
+          ],
+          "nestedPaths": [
+            "META-INF/jarjar/Connector-1.0.0-beta.49+1.20.1-mod.jar"
+          ],
+          "parentPath": "mods/Connector-1.0.0-beta.49+1.20.1.jar",
+          "parentSha256": "caf19c97c0fce9158e03e354d4ebf556e8f1745c868da5dc4f6b7498727ab29f",
+          "selectedSourceSha256": "c1fabe73c0f2ad1005744d48a16cc6da8ecf61520a6567f43a59cc2f5c51721d"
+        }
+      ],
+      "nativeSourceFile": "Connector-1.0.0-beta.49+1.20.1-mod.jar",
+      "nativeVersion": "1.0.0-beta.49+1.20.1",
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/sinytra-connector"
+    },
+    "crash_assistant": {
+      "matches": [
+        {
+          "coordinates": [
+            "Native embedded Forge module"
+          ],
+          "nestedPaths": [
+            "META-INF/jarjar/crash_assistant-forge.jar"
+          ],
+          "parentPath": "mods/CrashAssistant-forge-1.19-1.20.1-1.11.12.jar",
+          "parentSha256": "398fd4dd2c2d51e801f83e1a2dd30a9ddda5d40d520b28cc5fe7682972ba1f7e",
+          "selectedSourceSha256": "0bae6bef0ce69e8ee4d4664d010d40cf6d0b6bc97c5deb1dce7eaf68018686ce"
+        }
+      ],
+      "nativeSourceFile": "crash_assistant-forge.jar",
+      "nativeVersion": "1.11.12",
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/crash-assistant"
+    },
+    "curios": {
+      "matches": [
+        {
+          "coordinates": [],
+          "nestedPaths": [],
+          "parentPath": "mods/accessories_cclayer-7.4.0-beta.18+1.20.1.jar",
+          "parentSha256": "390061939c778cff928b42ffda90c15d6ff5ae11a4c0bf9a43bff2ef174de1fd",
+          "selectedSourceSha256": "390061939c778cff928b42ffda90c15d6ff5ae11a4c0bf9a43bff2ef174de1fd"
+        }
+      ],
+      "nativeSourceFile": "accessories_cclayer-7.4.0-beta.18+1.20.1.jar",
+      "nativeVersion": "7.4.0+1.20.1",
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/accessories-cc-layer"
+    },
+    "dungeonconfig": {
+      "matches": [
+        {
+          "coordinates": [
+            {
+              "artifact": "DungeonConfig-1.20.1-forge",
+              "group": "com.frikinjay"
+            }
+          ],
+          "nestedPaths": [
+            "META-INF/jars/DungeonConfig-1.20.1-forge-1.26.10.3.jar"
+          ],
+          "parentPath": "mods/almanac-forge-1.20.1-1.26.10.3.jar",
+          "parentSha256": "603a09f46f746e3e9aa96ddccdeafcc8f26219875fbfd834bfa89865eb7e358a",
+          "selectedSourceSha256": "05857adccdecac69c662c6ca1f5b9e9e414a73ce503de90e3c46fd780dc62200"
+        }
+      ],
+      "nativeSourceFile": "DungeonConfig-1.20.1-forge-1.26.10.3.jar",
+      "nativeVersion": "1.26.10.3",
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/dungeonconfig"
+    },
+    "fabric_api": {
+      "matches": [
+        {
+          "coordinates": [],
+          "nestedPaths": [],
+          "parentPath": "mods/fabric-api-0.92.6+1.11.15+1.20.1.jar",
+          "parentSha256": "ffb61c81b9025297048fd647902f4c67c016073c0e94da100125e9aa1168c194",
+          "selectedSourceSha256": "ffb61c81b9025297048fd647902f4c67c016073c0e94da100125e9aa1168c194"
+        }
+      ],
+      "nativeSourceFile": "fabric-api-0.92.6+1.11.15+1.20.1.jar",
+      "nativeVersion": "0.92.6+1.11.15+1.20.1",
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/forgified-fabric-api"
+    },
+    "fabric_api_base": {
+      "matches": [
+        {
+          "coordinates": [
+            {
+              "artifact": "fabric-api-base",
+              "group": "dev.su5ed.sinytra.fabric-api"
+            }
+          ],
+          "nestedPaths": [
+            "META-INF/jarjar/fabric-api-base-0.4.32+ef105b4977.jar"
+          ],
+          "parentPath": "mods/SnowRealMagic-1.20.1-Forge-10.7.0.jar",
+          "parentSha256": "969b0e396dc1d5f2fd3783b3638fc49230fe143ea5329584b27e558a77a20dac",
+          "selectedSourceSha256": "2e2e97e642a9578d2f1f8234ac4d567fa6e6c50318602e29d4accb928beb4394"
+        },
+        {
+          "coordinates": [
+            {
+              "artifact": "fabric-api-base",
+              "group": "dev.su5ed.sinytra.fabric-api"
+            }
+          ],
+          "nestedPaths": [
+            "META-INF/jarjar/fabric-api-base-0.4.32+ef105b4977.jar"
+          ],
+          "parentPath": "mods/fabric-api-0.92.6+1.11.15+1.20.1.jar",
+          "parentSha256": "ffb61c81b9025297048fd647902f4c67c016073c0e94da100125e9aa1168c194",
+          "selectedSourceSha256": "2e2e97e642a9578d2f1f8234ac4d567fa6e6c50318602e29d4accb928beb4394"
+        }
+      ],
+      "nativeSourceFile": "fabric-api-base-0.4.32+ef105b4977.jar",
+      "nativeVersion": "0.4.32+ef105b4977",
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/forgified-fabric-api"
+    },
+    "fabric_api_lookup_api_v1": {
+      "matches": [
+        {
+          "coordinates": [
+            {
+              "artifact": "fabric-api-lookup-api-v1",
+              "group": "dev.su5ed.sinytra.fabric-api"
+            }
+          ],
+          "nestedPaths": [
+            "META-INF/jarjar/fabric-api-lookup-api-v1-1.6.37+67f9824077.jar"
+          ],
+          "parentPath": "mods/fabric-api-0.92.6+1.11.15+1.20.1.jar",
+          "parentSha256": "ffb61c81b9025297048fd647902f4c67c016073c0e94da100125e9aa1168c194",
+          "selectedSourceSha256": "6ef774f5f8c279e528ea1576ba023d71c09ffb0d3c5d2a62f13d146a8f10f435"
+        }
+      ],
+      "nativeSourceFile": "fabric-api-lookup-api-v1-1.6.37+67f9824077.jar",
+      "nativeVersion": "1.6.37+67f9824077",
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/forgified-fabric-api"
+    },
+    "fabric_biome_api_v1": {
+      "matches": [
+        {
+          "coordinates": [
+            {
+              "artifact": "fabric-biome-api-v1",
+              "group": "dev.su5ed.sinytra.fabric-api"
+            }
+          ],
+          "nestedPaths": [
+            "META-INF/jarjar/fabric-biome-api-v1-13.0.14+dc36698e77.jar"
+          ],
+          "parentPath": "mods/fabric-api-0.92.6+1.11.15+1.20.1.jar",
+          "parentSha256": "ffb61c81b9025297048fd647902f4c67c016073c0e94da100125e9aa1168c194",
+          "selectedSourceSha256": "29051866e746dd0cd2ff3f37d6e7a2cbf1a2f79e4746bba8415a5b4ca1635a33"
+        }
+      ],
+      "nativeSourceFile": "fabric-biome-api-v1-13.0.14+dc36698e77.jar",
+      "nativeVersion": "13.0.14+dc36698e77",
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/forgified-fabric-api"
+    },
+    "fabric_block_api_v1": {
+      "matches": [
+        {
+          "coordinates": [
+            {
+              "artifact": "fabric-block-api-v1",
+              "group": "dev.su5ed.sinytra.fabric-api"
+            }
+          ],
+          "nestedPaths": [
+            "META-INF/jarjar/fabric-block-api-v1-1.0.12+0e6cb7f777.jar"
+          ],
+          "parentPath": "mods/fabric-api-0.92.6+1.11.15+1.20.1.jar",
+          "parentSha256": "ffb61c81b9025297048fd647902f4c67c016073c0e94da100125e9aa1168c194",
+          "selectedSourceSha256": "f125c6fc4d6fdb86d5f51926969ebd5163309e543aa4b0ac1bd55b63bbd1154d"
+        }
+      ],
+      "nativeSourceFile": "fabric-block-api-v1-1.0.12+0e6cb7f777.jar",
+      "nativeVersion": "1.0.12+0e6cb7f777",
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/forgified-fabric-api"
+    },
+    "fabric_block_view_api_v2": {
+      "matches": [
+        {
+          "coordinates": [
+            {
+              "artifact": "fabric-block-view-api-v2",
+              "group": "dev.su5ed.sinytra.fabric-api"
+            }
+          ],
+          "nestedPaths": [
+            "META-INF/jarjar/fabric-block-view-api-v2-1.0.3+53347ba977.jar"
+          ],
+          "parentPath": "mods/fabric-api-0.92.6+1.11.15+1.20.1.jar",
+          "parentSha256": "ffb61c81b9025297048fd647902f4c67c016073c0e94da100125e9aa1168c194",
+          "selectedSourceSha256": "619415ba2e9e54881578fdc99630dab9a55d2ba6209209b29cb5c46df564c28f"
+        }
+      ],
+      "nativeSourceFile": "fabric-block-view-api-v2-1.0.3+53347ba977.jar",
+      "nativeVersion": "1.0.3+53347ba977",
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/forgified-fabric-api"
+    },
+    "fabric_blockrenderlayer_v1": {
+      "matches": [
+        {
+          "coordinates": [
+            {
+              "artifact": "fabric-blockrenderlayer-v1",
+              "group": "dev.su5ed.sinytra.fabric-api"
+            }
+          ],
+          "nestedPaths": [
+            "META-INF/jarjar/fabric-blockrenderlayer-v1-1.1.42+1d0da21e77.jar"
+          ],
+          "parentPath": "mods/fabric-api-0.92.6+1.11.15+1.20.1.jar",
+          "parentSha256": "ffb61c81b9025297048fd647902f4c67c016073c0e94da100125e9aa1168c194",
+          "selectedSourceSha256": "7c637965967a7ddc935fba3861d9536a1eca9dcb434f01b1135cba1bcd9e09d8"
+        }
+      ],
+      "nativeSourceFile": "fabric-blockrenderlayer-v1-1.1.42+1d0da21e77.jar",
+      "nativeVersion": "1.1.42+1d0da21e77",
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/forgified-fabric-api"
+    },
+    "fabric_client_tags_api_v1": {
+      "matches": [
+        {
+          "coordinates": [
+            {
+              "artifact": "fabric-client-tags-api-v1",
+              "group": "dev.su5ed.sinytra.fabric-api"
+            }
+          ],
+          "nestedPaths": [
+            "META-INF/jarjar/fabric-client-tags-api-v1-1.1.3+5d6761b877.jar"
+          ],
+          "parentPath": "mods/fabric-api-0.92.6+1.11.15+1.20.1.jar",
+          "parentSha256": "ffb61c81b9025297048fd647902f4c67c016073c0e94da100125e9aa1168c194",
+          "selectedSourceSha256": "8ae100c58e398e2abe52784cd1e198882f602b6e9e4e9c7a6c188e58bf488623"
+        }
+      ],
+      "nativeSourceFile": "fabric-client-tags-api-v1-1.1.3+5d6761b877.jar",
+      "nativeVersion": "1.1.3+5d6761b877",
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/forgified-fabric-api"
+    },
+    "fabric_command_api_v1": {
+      "matches": [
+        {
+          "coordinates": [
+            {
+              "artifact": "fabric-command-api-v1",
+              "group": "dev.su5ed.sinytra.fabric-api"
+            }
+          ],
+          "nestedPaths": [
+            "META-INF/jarjar/fabric-command-api-v1-1.2.35+f71b366f77.jar"
+          ],
+          "parentPath": "mods/fabric-api-0.92.6+1.11.15+1.20.1.jar",
+          "parentSha256": "ffb61c81b9025297048fd647902f4c67c016073c0e94da100125e9aa1168c194",
+          "selectedSourceSha256": "d0528ba7ddf0de709d13b1ab5caa6fca8aa158bac65abd3e9c0d1ab31dbfca16"
+        }
+      ],
+      "nativeSourceFile": "fabric-command-api-v1-1.2.35+f71b366f77.jar",
+      "nativeVersion": "1.2.35+f71b366f77",
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/forgified-fabric-api"
+    },
+    "fabric_command_api_v2": {
+      "matches": [
+        {
+          "coordinates": [
+            {
+              "artifact": "fabric-command-api-v2",
+              "group": "dev.su5ed.sinytra.fabric-api"
+            }
+          ],
+          "nestedPaths": [
+            "META-INF/jarjar/fabric-command-api-v2-2.2.14+561530ec77.jar"
+          ],
+          "parentPath": "mods/fabric-api-0.92.6+1.11.15+1.20.1.jar",
+          "parentSha256": "ffb61c81b9025297048fd647902f4c67c016073c0e94da100125e9aa1168c194",
+          "selectedSourceSha256": "061634dab8403e4cb6a4d3eb284415981bf4bd2aa0d05a6d4fb3b7f7f09f54de"
+        }
+      ],
+      "nativeSourceFile": "fabric-command-api-v2-2.2.14+561530ec77.jar",
+      "nativeVersion": "2.2.14+561530ec77",
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/forgified-fabric-api"
+    },
+    "fabric_content_registries_v0": {
+      "matches": [
+        {
+          "coordinates": [
+            {
+              "artifact": "fabric-content-registries-v0",
+              "group": "dev.su5ed.sinytra.fabric-api"
+            }
+          ],
+          "nestedPaths": [
+            "META-INF/jarjar/fabric-content-registries-v0-4.0.13+a670df1e77.jar"
+          ],
+          "parentPath": "mods/fabric-api-0.92.6+1.11.15+1.20.1.jar",
+          "parentSha256": "ffb61c81b9025297048fd647902f4c67c016073c0e94da100125e9aa1168c194",
+          "selectedSourceSha256": "b9ec2c5c3573959f9e60f4753608ffe3d47095c3f210871a4327911883ada38d"
+        }
+      ],
+      "nativeSourceFile": "fabric-content-registries-v0-4.0.13+a670df1e77.jar",
+      "nativeVersion": "4.0.13+a670df1e77",
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/forgified-fabric-api"
+    },
+    "fabric_convention_tags_v1": {
+      "matches": [
+        {
+          "coordinates": [
+            {
+              "artifact": "fabric-convention-tags-v1",
+              "group": "dev.su5ed.sinytra.fabric-api"
+            }
+          ],
+          "nestedPaths": [
+            "META-INF/jarjar/fabric-convention-tags-v1-1.5.6+fa3d1c0177.jar"
+          ],
+          "parentPath": "mods/fabric-api-0.92.6+1.11.15+1.20.1.jar",
+          "parentSha256": "ffb61c81b9025297048fd647902f4c67c016073c0e94da100125e9aa1168c194",
+          "selectedSourceSha256": "09d477ba42512ca56b47406083247df45863a94b566ffd8d15f401dbbeafc73b"
+        }
+      ],
+      "nativeSourceFile": "fabric-convention-tags-v1-1.5.6+fa3d1c0177.jar",
+      "nativeVersion": "1.5.6+fa3d1c0177",
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/forgified-fabric-api"
+    },
+    "fabric_data_attachment_api_v1": {
+      "matches": [
+        {
+          "coordinates": [
+            {
+              "artifact": "fabric-data-attachment-api-v1",
+              "group": "dev.su5ed.sinytra.fabric-api"
+            }
+          ],
+          "nestedPaths": [
+            "META-INF/jarjar/fabric-data-attachment-api-v1-1.0.2+30ef839e77.jar"
+          ],
+          "parentPath": "mods/fabric-api-0.92.6+1.11.15+1.20.1.jar",
+          "parentSha256": "ffb61c81b9025297048fd647902f4c67c016073c0e94da100125e9aa1168c194",
+          "selectedSourceSha256": "10713426ddb41bdf666456d45d7edf967cb47b5796e00201fcefd4562929906f"
+        }
+      ],
+      "nativeSourceFile": "fabric-data-attachment-api-v1-1.0.2+30ef839e77.jar",
+      "nativeVersion": "1.0.2+30ef839e77",
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/forgified-fabric-api"
+    },
+    "fabric_data_generation_api_v1": {
+      "matches": [
+        {
+          "coordinates": [
+            {
+              "artifact": "fabric-data-generation-api-v1",
+              "group": "dev.su5ed.sinytra.fabric-api"
+            }
+          ],
+          "nestedPaths": [
+            "META-INF/jarjar/fabric-data-generation-api-v1-12.3.7+369cb3a477.jar"
+          ],
+          "parentPath": "mods/fabric-api-0.92.6+1.11.15+1.20.1.jar",
+          "parentSha256": "ffb61c81b9025297048fd647902f4c67c016073c0e94da100125e9aa1168c194",
+          "selectedSourceSha256": "1f05659e2dc28a4886ebcd6c421e86a2ecb4e43b3c543385b29e48828d95680c"
+        }
+      ],
+      "nativeSourceFile": "fabric-data-generation-api-v1-12.3.7+369cb3a477.jar",
+      "nativeVersion": "12.3.7+369cb3a477",
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/forgified-fabric-api"
+    },
+    "fabric_dimensions_v1": {
+      "matches": [
+        {
+          "coordinates": [
+            {
+              "artifact": "fabric-dimensions-v1",
+              "group": "dev.su5ed.sinytra.fabric-api"
+            }
+          ],
+          "nestedPaths": [
+            "META-INF/jarjar/fabric-dimensions-v1-2.1.55+8005d10d77.jar"
+          ],
+          "parentPath": "mods/fabric-api-0.92.6+1.11.15+1.20.1.jar",
+          "parentSha256": "ffb61c81b9025297048fd647902f4c67c016073c0e94da100125e9aa1168c194",
+          "selectedSourceSha256": "8a26f8801cbe64aa39ec5bb6f65453f68f8979a27aa15d7e232265ce50bcacbf"
+        }
+      ],
+      "nativeSourceFile": "fabric-dimensions-v1-2.1.55+8005d10d77.jar",
+      "nativeVersion": "2.1.55+8005d10d77",
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/forgified-fabric-api"
+    },
+    "fabric_entity_events_v1": {
+      "matches": [
+        {
+          "coordinates": [
+            {
+              "artifact": "fabric-entity-events-v1",
+              "group": "dev.su5ed.sinytra.fabric-api"
+            }
+          ],
+          "nestedPaths": [
+            "META-INF/jarjar/fabric-entity-events-v1-1.6.1+4ca7515277.jar"
+          ],
+          "parentPath": "mods/fabric-api-0.92.6+1.11.15+1.20.1.jar",
+          "parentSha256": "ffb61c81b9025297048fd647902f4c67c016073c0e94da100125e9aa1168c194",
+          "selectedSourceSha256": "dd5d5a8265b138552d306c885ebb9bd65e6968476e2e193119c5177c1347d2c2"
+        }
+      ],
+      "nativeSourceFile": "fabric-entity-events-v1-1.6.1+4ca7515277.jar",
+      "nativeVersion": "1.6.1+4ca7515277",
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/forgified-fabric-api"
+    },
+    "fabric_events_interaction_v0": {
+      "matches": [
+        {
+          "coordinates": [
+            {
+              "artifact": "fabric-events-interaction-v0",
+              "group": "dev.su5ed.sinytra.fabric-api"
+            }
+          ],
+          "nestedPaths": [
+            "META-INF/jarjar/fabric-events-interaction-v0-0.6.5+0f26153f77.jar"
+          ],
+          "parentPath": "mods/fabric-api-0.92.6+1.11.15+1.20.1.jar",
+          "parentSha256": "ffb61c81b9025297048fd647902f4c67c016073c0e94da100125e9aa1168c194",
+          "selectedSourceSha256": "5beb96117fb20294208c413fa697afa4745fa2784b893ba3be1fb35942640647"
+        }
+      ],
+      "nativeSourceFile": "fabric-events-interaction-v0-0.6.5+0f26153f77.jar",
+      "nativeVersion": "0.6.5+0f26153f77",
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/forgified-fabric-api"
+    },
+    "fabric_game_rule_api_v1": {
+      "matches": [
+        {
+          "coordinates": [
+            {
+              "artifact": "fabric-game-rule-api-v1",
+              "group": "dev.su5ed.sinytra.fabric-api"
+            }
+          ],
+          "nestedPaths": [
+            "META-INF/jarjar/fabric-game-rule-api-v1-1.0.41+683d4da877.jar"
+          ],
+          "parentPath": "mods/fabric-api-0.92.6+1.11.15+1.20.1.jar",
+          "parentSha256": "ffb61c81b9025297048fd647902f4c67c016073c0e94da100125e9aa1168c194",
+          "selectedSourceSha256": "09829f68db0fe4e87d337b23e00b9646d159035b93e3b84ba1af8a2a5035ef49"
+        }
+      ],
+      "nativeSourceFile": "fabric-game-rule-api-v1-1.0.41+683d4da877.jar",
+      "nativeVersion": "1.0.41+683d4da877",
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/forgified-fabric-api"
+    },
+    "fabric_item_api_v1": {
+      "matches": [
+        {
+          "coordinates": [
+            {
+              "artifact": "fabric-item-api-v1",
+              "group": "dev.su5ed.sinytra.fabric-api"
+            }
+          ],
+          "nestedPaths": [
+            "META-INF/jarjar/fabric-item-api-v1-2.1.29+4d0bbcfa77.jar"
+          ],
+          "parentPath": "mods/fabric-api-0.92.6+1.11.15+1.20.1.jar",
+          "parentSha256": "ffb61c81b9025297048fd647902f4c67c016073c0e94da100125e9aa1168c194",
+          "selectedSourceSha256": "a2440527de3052730e81f6673799a827d334f04781a4c74370f68b382ebbe95b"
+        }
+      ],
+      "nativeSourceFile": "fabric-item-api-v1-2.1.29+4d0bbcfa77.jar",
+      "nativeVersion": "2.1.29+4d0bbcfa77",
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/forgified-fabric-api"
+    },
+    "fabric_item_group_api_v1": {
+      "matches": [
+        {
+          "coordinates": [
+            {
+              "artifact": "fabric-item-group-api-v1",
+              "group": "dev.su5ed.sinytra.fabric-api"
+            }
+          ],
+          "nestedPaths": [
+            "META-INF/jarjar/fabric-item-group-api-v1-4.0.14+c9161c2d77.jar"
+          ],
+          "parentPath": "mods/fabric-api-0.92.6+1.11.15+1.20.1.jar",
+          "parentSha256": "ffb61c81b9025297048fd647902f4c67c016073c0e94da100125e9aa1168c194",
+          "selectedSourceSha256": "13e0a4f022c66a603dd4faa6450a898989e548f8d0eaf82d1874b52f44636478"
+        }
+      ],
+      "nativeSourceFile": "fabric-item-group-api-v1-4.0.14+c9161c2d77.jar",
+      "nativeVersion": "4.0.14+c9161c2d77",
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/forgified-fabric-api"
+    },
+    "fabric_key_binding_api_v1": {
+      "matches": [
+        {
+          "coordinates": [
+            {
+              "artifact": "fabric-key-binding-api-v1",
+              "group": "dev.su5ed.sinytra.fabric-api"
+            }
+          ],
+          "nestedPaths": [
+            "META-INF/jarjar/fabric-key-binding-api-v1-1.0.38+561530ec77.jar"
+          ],
+          "parentPath": "mods/fabric-api-0.92.6+1.11.15+1.20.1.jar",
+          "parentSha256": "ffb61c81b9025297048fd647902f4c67c016073c0e94da100125e9aa1168c194",
+          "selectedSourceSha256": "7f33e31f6e5173473e7ec840d19dc82e4cc1f520d917b6a7df221497085592e4"
+        }
+      ],
+      "nativeSourceFile": "fabric-key-binding-api-v1-1.0.38+561530ec77.jar",
+      "nativeVersion": "1.0.38+561530ec77",
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/forgified-fabric-api"
+    },
+    "fabric_lifecycle_events_v1": {
+      "matches": [
+        {
+          "coordinates": [
+            {
+              "artifact": "fabric-lifecycle-events-v1",
+              "group": "dev.su5ed.sinytra.fabric-api"
+            }
+          ],
+          "nestedPaths": [
+            "META-INF/jarjar/fabric-lifecycle-events-v1-2.2.23+afab492177.jar"
+          ],
+          "parentPath": "mods/fabric-api-0.92.6+1.11.15+1.20.1.jar",
+          "parentSha256": "ffb61c81b9025297048fd647902f4c67c016073c0e94da100125e9aa1168c194",
+          "selectedSourceSha256": "714c8b1e4e444288968d91c112ce66b1f1a8fe8d69d8ef747b0900a90ca35d3f"
+        }
+      ],
+      "nativeSourceFile": "fabric-lifecycle-events-v1-2.2.23+afab492177.jar",
+      "nativeVersion": "2.2.23+afab492177",
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/forgified-fabric-api"
+    },
+    "fabric_loot_api_v2": {
+      "matches": [
+        {
+          "coordinates": [
+            {
+              "artifact": "fabric-loot-api-v2",
+              "group": "dev.su5ed.sinytra.fabric-api"
+            }
+          ],
+          "nestedPaths": [
+            "META-INF/jarjar/fabric-loot-api-v2-1.2.3+eb28f93e77.jar"
+          ],
+          "parentPath": "mods/fabric-api-0.92.6+1.11.15+1.20.1.jar",
+          "parentSha256": "ffb61c81b9025297048fd647902f4c67c016073c0e94da100125e9aa1168c194",
+          "selectedSourceSha256": "52184ec7b69e3fb8e9fc482ff4b5f4387245189f1b2b485aa6afd49f2ac0fd57"
+        }
+      ],
+      "nativeSourceFile": "fabric-loot-api-v2-1.2.3+eb28f93e77.jar",
+      "nativeVersion": "1.2.3+eb28f93e77",
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/forgified-fabric-api"
+    },
+    "fabric_message_api_v1": {
+      "matches": [
+        {
+          "coordinates": [
+            {
+              "artifact": "fabric-message-api-v1",
+              "group": "dev.su5ed.sinytra.fabric-api"
+            }
+          ],
+          "nestedPaths": [
+            "META-INF/jarjar/fabric-message-api-v1-5.1.10+52cc178c77.jar"
+          ],
+          "parentPath": "mods/fabric-api-0.92.6+1.11.15+1.20.1.jar",
+          "parentSha256": "ffb61c81b9025297048fd647902f4c67c016073c0e94da100125e9aa1168c194",
+          "selectedSourceSha256": "677d680e69ad64174c1bad4d6182650f86c5a45af2ce9acf2f4aae74effae322"
+        }
+      ],
+      "nativeSourceFile": "fabric-message-api-v1-5.1.10+52cc178c77.jar",
+      "nativeVersion": "5.1.10+52cc178c77",
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/forgified-fabric-api"
+    },
+    "fabric_mining_level_api_v1": {
+      "matches": [
+        {
+          "coordinates": [
+            {
+              "artifact": "fabric-mining-level-api-v1",
+              "group": "dev.su5ed.sinytra.fabric-api"
+            }
+          ],
+          "nestedPaths": [
+            "META-INF/jarjar/fabric-mining-level-api-v1-2.1.52+561530ec77.jar"
+          ],
+          "parentPath": "mods/fabric-api-0.92.6+1.11.15+1.20.1.jar",
+          "parentSha256": "ffb61c81b9025297048fd647902f4c67c016073c0e94da100125e9aa1168c194",
+          "selectedSourceSha256": "ac0141070a1e1e6f253515a5b103dde4c7d5360a9e74ac5fe8cea1ed76215c49"
+        }
+      ],
+      "nativeSourceFile": "fabric-mining-level-api-v1-2.1.52+561530ec77.jar",
+      "nativeVersion": "2.1.52+561530ec77",
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/forgified-fabric-api"
+    },
+    "fabric_model_loading_api_v1": {
+      "matches": [
+        {
+          "coordinates": [
+            {
+              "artifact": "fabric-model-loading-api-v1",
+              "group": "dev.su5ed.sinytra.fabric-api"
+            }
+          ],
+          "nestedPaths": [
+            "META-INF/jarjar/fabric-model-loading-api-v1-1.0.4+6274ab9d77.jar"
+          ],
+          "parentPath": "mods/fabric-api-0.92.6+1.11.15+1.20.1.jar",
+          "parentSha256": "ffb61c81b9025297048fd647902f4c67c016073c0e94da100125e9aa1168c194",
+          "selectedSourceSha256": "c555178dce08a17a2b096957cbb5cd9eee2f5d8a4421048850296699bb20d048"
+        }
+      ],
+      "nativeSourceFile": "fabric-model-loading-api-v1-1.0.4+6274ab9d77.jar",
+      "nativeVersion": "1.0.4+6274ab9d77",
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/forgified-fabric-api"
+    },
+    "fabric_models_v0": {
+      "matches": [
+        {
+          "coordinates": [
+            {
+              "artifact": "fabric-models-v0",
+              "group": "dev.su5ed.sinytra.fabric-api"
+            }
+          ],
+          "nestedPaths": [
+            "META-INF/jarjar/fabric-models-v0-0.4.3+7c3892a477.jar"
+          ],
+          "parentPath": "mods/fabric-api-0.92.6+1.11.15+1.20.1.jar",
+          "parentSha256": "ffb61c81b9025297048fd647902f4c67c016073c0e94da100125e9aa1168c194",
+          "selectedSourceSha256": "cca1358d38eba245c5dd264bf2833ccd393d06cb27b5fe4e1d92ef6754c90bc7"
+        }
+      ],
+      "nativeSourceFile": "fabric-models-v0-0.4.3+7c3892a477.jar",
+      "nativeVersion": "0.4.3+7c3892a477",
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/forgified-fabric-api"
+    },
+    "fabric_networking_api_v1": {
+      "matches": [
+        {
+          "coordinates": [
+            {
+              "artifact": "fabric-networking-api-v1",
+              "group": "dev.su5ed.sinytra.fabric-api"
+            }
+          ],
+          "nestedPaths": [
+            "META-INF/jarjar/fabric-networking-api-v1-1.3.14+fb7c822677.jar"
+          ],
+          "parentPath": "mods/fabric-api-0.92.6+1.11.15+1.20.1.jar",
+          "parentSha256": "ffb61c81b9025297048fd647902f4c67c016073c0e94da100125e9aa1168c194",
+          "selectedSourceSha256": "4b1738c13e90ac5464ef6b06530dac72422c932985d52b44df83869557f43af5"
+        }
+      ],
+      "nativeSourceFile": "fabric-networking-api-v1-1.3.14+fb7c822677.jar",
+      "nativeVersion": "1.3.14+fb7c822677",
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/forgified-fabric-api"
+    },
+    "fabric_object_builder_api_v1": {
+      "matches": [
+        {
+          "coordinates": [
+            {
+              "artifact": "fabric-object-builder-api-v1",
+              "group": "dev.su5ed.sinytra.fabric-api"
+            }
+          ],
+          "nestedPaths": [
+            "META-INF/jarjar/fabric-object-builder-api-v1-11.1.5+f8c414ce77.jar"
+          ],
+          "parentPath": "mods/fabric-api-0.92.6+1.11.15+1.20.1.jar",
+          "parentSha256": "ffb61c81b9025297048fd647902f4c67c016073c0e94da100125e9aa1168c194",
+          "selectedSourceSha256": "729879815611e5b82638f74786f35b8bac36d2d53243a603d5a0ce0f3025133d"
+        }
+      ],
+      "nativeSourceFile": "fabric-object-builder-api-v1-11.1.5+f8c414ce77.jar",
+      "nativeVersion": "11.1.5+f8c414ce77",
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/forgified-fabric-api"
+    },
+    "fabric_particles_v1": {
+      "matches": [
+        {
+          "coordinates": [
+            {
+              "artifact": "fabric-particles-v1",
+              "group": "dev.su5ed.sinytra.fabric-api"
+            }
+          ],
+          "nestedPaths": [
+            "META-INF/jarjar/fabric-particles-v1-1.1.3+78e1ecb877.jar"
+          ],
+          "parentPath": "mods/fabric-api-0.92.6+1.11.15+1.20.1.jar",
+          "parentSha256": "ffb61c81b9025297048fd647902f4c67c016073c0e94da100125e9aa1168c194",
+          "selectedSourceSha256": "d81bcf399647068530417e970017fc03683bb6af88730f82c2c0881d57cd1b44"
+        }
+      ],
+      "nativeSourceFile": "fabric-particles-v1-1.1.3+78e1ecb877.jar",
+      "nativeVersion": "1.1.3+78e1ecb877",
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/forgified-fabric-api"
+    },
+    "fabric_recipe_api_v1": {
+      "matches": [
+        {
+          "coordinates": [
+            {
+              "artifact": "fabric-recipe-api-v1",
+              "group": "dev.su5ed.sinytra.fabric-api"
+            }
+          ],
+          "nestedPaths": [
+            "META-INF/jarjar/fabric-recipe-api-v1-1.0.24+514a076577.jar"
+          ],
+          "parentPath": "mods/fabric-api-0.92.6+1.11.15+1.20.1.jar",
+          "parentSha256": "ffb61c81b9025297048fd647902f4c67c016073c0e94da100125e9aa1168c194",
+          "selectedSourceSha256": "f60b4af78081e704120ae77945b1e7696c7593ba28915f9efc1e2eb177d6647e"
+        }
+      ],
+      "nativeSourceFile": "fabric-recipe-api-v1-1.0.24+514a076577.jar",
+      "nativeVersion": "1.0.24+514a076577",
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/forgified-fabric-api"
+    },
+    "fabric_registry_sync_v0": {
+      "matches": [
+        {
+          "coordinates": [
+            {
+              "artifact": "fabric-registry-sync-v0",
+              "group": "dev.su5ed.sinytra.fabric-api"
+            }
+          ],
+          "nestedPaths": [
+            "META-INF/jarjar/fabric-registry-sync-v0-2.3.6+1c0ea72177.jar"
+          ],
+          "parentPath": "mods/fabric-api-0.92.6+1.11.15+1.20.1.jar",
+          "parentSha256": "ffb61c81b9025297048fd647902f4c67c016073c0e94da100125e9aa1168c194",
+          "selectedSourceSha256": "64be5ac6eb88989e4babc3fdd833aa29de369949b3a4e0ff23c7ccfa2ba0e548"
+        }
+      ],
+      "nativeSourceFile": "fabric-registry-sync-v0-2.3.6+1c0ea72177.jar",
+      "nativeVersion": "2.3.6+1c0ea72177",
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/forgified-fabric-api"
+    },
+    "fabric_renderer_api_v1": {
+      "matches": [
+        {
+          "coordinates": [
+            {
+              "artifact": "fabric-renderer-api-v1",
+              "group": "dev.su5ed.sinytra.fabric-api"
+            }
+          ],
+          "nestedPaths": [
+            "META-INF/jarjar/fabric-renderer-api-v1-3.2.2+cf68abbe77.jar"
+          ],
+          "parentPath": "mods/SnowRealMagic-1.20.1-Forge-10.7.0.jar",
+          "parentSha256": "969b0e396dc1d5f2fd3783b3638fc49230fe143ea5329584b27e558a77a20dac",
+          "selectedSourceSha256": "53f8221c35e0b2f2fb9b64270500238d029b8027b3390104af7c0329edeebd26"
+        },
+        {
+          "coordinates": [
+            {
+              "artifact": "fabric-renderer-api-v1",
+              "group": "dev.su5ed.sinytra.fabric-api"
+            }
+          ],
+          "nestedPaths": [
+            "META-INF/jarjar/fabric-renderer-api-v1-3.2.2+cf68abbe77.jar"
+          ],
+          "parentPath": "mods/fabric-api-0.92.6+1.11.15+1.20.1.jar",
+          "parentSha256": "ffb61c81b9025297048fd647902f4c67c016073c0e94da100125e9aa1168c194",
+          "selectedSourceSha256": "f70c92aef753602dd4863aad79b45af59f156fa05843b366ea5219cdd0987e61"
+        }
+      ],
+      "nativeSourceFile": "fabric-renderer-api-v1-3.2.2+cf68abbe77.jar",
+      "nativeVersion": "3.2.2+cf68abbe77",
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/forgified-fabric-api"
+    },
+    "fabric_renderer_indigo": {
+      "matches": [
+        {
+          "coordinates": [
+            {
+              "artifact": "fabric-renderer-indigo",
+              "group": "dev.su5ed.sinytra.fabric-api"
+            }
+          ],
+          "nestedPaths": [
+            "META-INF/jarjar/fabric-renderer-indigo-1.5.3+b5b2da4177.jar"
+          ],
+          "parentPath": "mods/SnowRealMagic-1.20.1-Forge-10.7.0.jar",
+          "parentSha256": "969b0e396dc1d5f2fd3783b3638fc49230fe143ea5329584b27e558a77a20dac",
+          "selectedSourceSha256": "8d63fae3672a2084bd93bcb8bb50c70a108658059b6adaa861e6ec52e40932a5"
+        },
+        {
+          "coordinates": [
+            {
+              "artifact": "fabric-renderer-indigo",
+              "group": "dev.su5ed.sinytra.fabric-api"
+            }
+          ],
+          "nestedPaths": [
+            "META-INF/jarjar/fabric-renderer-indigo-1.5.3+b5b2da4177.jar"
+          ],
+          "parentPath": "mods/fabric-api-0.92.6+1.11.15+1.20.1.jar",
+          "parentSha256": "ffb61c81b9025297048fd647902f4c67c016073c0e94da100125e9aa1168c194",
+          "selectedSourceSha256": "8d63fae3672a2084bd93bcb8bb50c70a108658059b6adaa861e6ec52e40932a5"
+        }
+      ],
+      "nativeSourceFile": "fabric-renderer-indigo-1.5.3+b5b2da4177.jar",
+      "nativeVersion": "1.5.3+b5b2da4177",
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/forgified-fabric-api"
+    },
+    "fabric_rendering_data_attachment_v1": {
+      "matches": [
+        {
+          "coordinates": [
+            {
+              "artifact": "fabric-rendering-data-attachment-v1",
+              "group": "dev.su5ed.sinytra.fabric-api"
+            }
+          ],
+          "nestedPaths": [
+            "META-INF/jarjar/fabric-rendering-data-attachment-v1-0.3.39+a6081afc77.jar"
+          ],
+          "parentPath": "mods/fabric-api-0.92.6+1.11.15+1.20.1.jar",
+          "parentSha256": "ffb61c81b9025297048fd647902f4c67c016073c0e94da100125e9aa1168c194",
+          "selectedSourceSha256": "1d3b1d2dba42ad9f695a7e5d0538944ae6e21e921d1a14c416402b1f11c93c1a"
+        }
+      ],
+      "nativeSourceFile": "fabric-rendering-data-attachment-v1-0.3.39+a6081afc77.jar",
+      "nativeVersion": "0.3.39+a6081afc77",
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/forgified-fabric-api"
+    },
+    "fabric_rendering_fluids_v1": {
+      "matches": [
+        {
+          "coordinates": [
+            {
+              "artifact": "fabric-rendering-fluids-v1",
+              "group": "dev.su5ed.sinytra.fabric-api"
+            }
+          ],
+          "nestedPaths": [
+            "META-INF/jarjar/fabric-rendering-fluids-v1-3.0.29+4ac5e37a77.jar"
+          ],
+          "parentPath": "mods/fabric-api-0.92.6+1.11.15+1.20.1.jar",
+          "parentSha256": "ffb61c81b9025297048fd647902f4c67c016073c0e94da100125e9aa1168c194",
+          "selectedSourceSha256": "0c0600a58740baea687b4d12ec2438a85cdd26bf0b0bfa28d1a764e133b53172"
+        }
+      ],
+      "nativeSourceFile": "fabric-rendering-fluids-v1-3.0.29+4ac5e37a77.jar",
+      "nativeVersion": "3.0.29+4ac5e37a77",
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/forgified-fabric-api"
+    },
+    "fabric_rendering_v1": {
+      "matches": [
+        {
+          "coordinates": [
+            {
+              "artifact": "fabric-rendering-v1",
+              "group": "dev.su5ed.sinytra.fabric-api"
+            }
+          ],
+          "nestedPaths": [
+            "META-INF/jarjar/fabric-rendering-v1-3.0.9+66e9a48f77.jar"
+          ],
+          "parentPath": "mods/fabric-api-0.92.6+1.11.15+1.20.1.jar",
+          "parentSha256": "ffb61c81b9025297048fd647902f4c67c016073c0e94da100125e9aa1168c194",
+          "selectedSourceSha256": "8af738a59bf1cb53cec3a52cdd4194e6a1aca4fed0c2f854a43653a3aba39592"
+        }
+      ],
+      "nativeSourceFile": "fabric-rendering-v1-3.0.9+66e9a48f77.jar",
+      "nativeVersion": "3.0.9+66e9a48f77",
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/forgified-fabric-api"
+    },
+    "fabric_resource_conditions_api_v1": {
+      "matches": [
+        {
+          "coordinates": [
+            {
+              "artifact": "fabric-resource-conditions-api-v1",
+              "group": "dev.su5ed.sinytra.fabric-api"
+            }
+          ],
+          "nestedPaths": [
+            "META-INF/jarjar/fabric-resource-conditions-api-v1-2.3.9+996d00b277.jar"
+          ],
+          "parentPath": "mods/fabric-api-0.92.6+1.11.15+1.20.1.jar",
+          "parentSha256": "ffb61c81b9025297048fd647902f4c67c016073c0e94da100125e9aa1168c194",
+          "selectedSourceSha256": "03430a60a57c0714a3ac08f46440fc17f62b28a5fa36b3cf7edce40855a8c1a6"
+        }
+      ],
+      "nativeSourceFile": "fabric-resource-conditions-api-v1-2.3.9+996d00b277.jar",
+      "nativeVersion": "2.3.9+996d00b277",
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/forgified-fabric-api"
+    },
+    "fabric_resource_loader_v0": {
+      "matches": [
+        {
+          "coordinates": [
+            {
+              "artifact": "fabric-resource-loader-v0",
+              "group": "dev.su5ed.sinytra.fabric-api"
+            }
+          ],
+          "nestedPaths": [
+            "META-INF/jarjar/fabric-resource-loader-v0-0.11.12+4b4151c077.jar"
+          ],
+          "parentPath": "mods/fabric-api-0.92.6+1.11.15+1.20.1.jar",
+          "parentSha256": "ffb61c81b9025297048fd647902f4c67c016073c0e94da100125e9aa1168c194",
+          "selectedSourceSha256": "905f3bdfd3dfc1b32ffa11f26c63e9a800ab18878a0aea4fde7330f74bc91862"
+        }
+      ],
+      "nativeSourceFile": "fabric-resource-loader-v0-0.11.12+4b4151c077.jar",
+      "nativeVersion": "0.11.12+4b4151c077",
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/forgified-fabric-api"
+    },
+    "fabric_screen_api_v1": {
+      "matches": [
+        {
+          "coordinates": [
+            {
+              "artifact": "fabric-screen-api-v1",
+              "group": "dev.su5ed.sinytra.fabric-api"
+            }
+          ],
+          "nestedPaths": [
+            "META-INF/jarjar/fabric-screen-api-v1-2.0.9+45a670a577.jar"
+          ],
+          "parentPath": "mods/fabric-api-0.92.6+1.11.15+1.20.1.jar",
+          "parentSha256": "ffb61c81b9025297048fd647902f4c67c016073c0e94da100125e9aa1168c194",
+          "selectedSourceSha256": "6677a78755727321192b9eb420ae5b23c3bdb7e966a0ee083d6271eb6b832032"
+        }
+      ],
+      "nativeSourceFile": "fabric-screen-api-v1-2.0.9+45a670a577.jar",
+      "nativeVersion": "2.0.9+45a670a577",
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/forgified-fabric-api"
+    },
+    "fabric_screen_handler_api_v1": {
+      "matches": [
+        {
+          "coordinates": [
+            {
+              "artifact": "fabric-screen-handler-api-v1",
+              "group": "dev.su5ed.sinytra.fabric-api"
+            }
+          ],
+          "nestedPaths": [
+            "META-INF/jarjar/fabric-screen-handler-api-v1-1.3.33+561530ec77.jar"
+          ],
+          "parentPath": "mods/fabric-api-0.92.6+1.11.15+1.20.1.jar",
+          "parentSha256": "ffb61c81b9025297048fd647902f4c67c016073c0e94da100125e9aa1168c194",
+          "selectedSourceSha256": "dc0bc0dc6ecc4b78e34ea5d9fa3bae82900eb71a5be0a4904acc621d16522247"
+        }
+      ],
+      "nativeSourceFile": "fabric-screen-handler-api-v1-1.3.33+561530ec77.jar",
+      "nativeVersion": "1.3.33+561530ec77",
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/forgified-fabric-api"
+    },
+    "fabric_sound_api_v1": {
+      "matches": [
+        {
+          "coordinates": [
+            {
+              "artifact": "fabric-sound-api-v1",
+              "group": "dev.su5ed.sinytra.fabric-api"
+            }
+          ],
+          "nestedPaths": [
+            "META-INF/jarjar/fabric-sound-api-v1-1.0.14+4f23bd8477.jar"
+          ],
+          "parentPath": "mods/fabric-api-0.92.6+1.11.15+1.20.1.jar",
+          "parentSha256": "ffb61c81b9025297048fd647902f4c67c016073c0e94da100125e9aa1168c194",
+          "selectedSourceSha256": "c3338e3ca41464bbd1a0f004f09814b39c5e4154b4fa79b77a96829abc8e52ae"
+        }
+      ],
+      "nativeSourceFile": "fabric-sound-api-v1-1.0.14+4f23bd8477.jar",
+      "nativeVersion": "1.0.14+4f23bd8477",
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/forgified-fabric-api"
+    },
+    "fabric_transfer_api_v1": {
+      "matches": [
+        {
+          "coordinates": [
+            {
+              "artifact": "fabric-transfer-api-v1",
+              "group": "dev.su5ed.sinytra.fabric-api"
+            }
+          ],
+          "nestedPaths": [
+            "META-INF/jarjar/fabric-transfer-api-v1-3.3.6+25eff73b77.jar"
+          ],
+          "parentPath": "mods/fabric-api-0.92.6+1.11.15+1.20.1.jar",
+          "parentSha256": "ffb61c81b9025297048fd647902f4c67c016073c0e94da100125e9aa1168c194",
+          "selectedSourceSha256": "36ea51e9eb544e1414e8f840e43aefa86d570eb6bac89a1f85244c1d99c0da39"
+        }
+      ],
+      "nativeSourceFile": "fabric-transfer-api-v1-3.3.6+25eff73b77.jar",
+      "nativeVersion": "3.3.6+25eff73b77",
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/forgified-fabric-api"
+    },
+    "fabric_transitive_access_wideners_v1": {
+      "matches": [
+        {
+          "coordinates": [
+            {
+              "artifact": "fabric-transitive-access-wideners-v1",
+              "group": "dev.su5ed.sinytra.fabric-api"
+            }
+          ],
+          "nestedPaths": [
+            "META-INF/jarjar/fabric-transitive-access-wideners-v1-4.3.2+1880499877.jar"
+          ],
+          "parentPath": "mods/fabric-api-0.92.6+1.11.15+1.20.1.jar",
+          "parentSha256": "ffb61c81b9025297048fd647902f4c67c016073c0e94da100125e9aa1168c194",
+          "selectedSourceSha256": "0c1ab9cc1afbc1dc847fc1a1e6e42d3a65f0f300fcf6d547c12929b15f7ef521"
+        }
+      ],
+      "nativeSourceFile": "fabric-transitive-access-wideners-v1-4.3.2+1880499877.jar",
+      "nativeVersion": "4.3.2+1880499877",
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/forgified-fabric-api"
+    },
+    "forgeconfigapiport": {
+      "matches": [
+        {
+          "coordinates": [
+            {
+              "artifact": "forgeconfigapiport",
+              "group": "dev.su5ed.sinytra"
+            }
+          ],
+          "nestedPaths": [
+            "META-INF/jarjar/forgeconfigapiport-1.11.2+1.20.1.jar"
+          ],
+          "parentPath": "mods/ConnectorExtras-1.11.2+1.20.1.jar",
+          "parentSha256": "10d149fc9348b57120f50e3f82ac6f7e544ae18f0b5b7342c0cab3af38f5acd8",
+          "selectedSourceSha256": "53459b0ad84240ea54723ebe94eca635285cc3a09e51b04d60298870006bb449"
+        }
+      ],
+      "nativeSourceFile": "forgeconfigapiport-1.11.2+1.20.1.jar",
+      "nativeVersion": "8.0.0",
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/connector-extras"
+    },
+    "kotlinforforge": {
+      "matches": [
+        {
+          "coordinates": [
+            {
+              "artifact": "kffmod",
+              "group": "thedarkcolour"
+            }
+          ],
+          "nestedPaths": [
+            "META-INF/jarjar/kffmod-4.12.0.jar"
+          ],
+          "parentPath": "mods/kotlinforforge-4.12.0-all.jar",
+          "parentSha256": "6a66c6a68ec09f8717cdbf06883394f0ee24d7cd826b7134a0f81839e8e720ae",
+          "selectedSourceSha256": "007d01bead461011be3774a3edf858314e0324023270f06d008834a7a404ee71"
+        }
+      ],
+      "nativeSourceFile": "kffmod-4.12.0.jar",
+      "nativeVersion": "4.12.0",
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/kotlin-for-forge"
+    },
+    "kuma_api": {
+      "matches": [
+        {
+          "coordinates": [
+            {
+              "artifact": "kuma-api-forge",
+              "group": "net.blay09.mods"
+            }
+          ],
+          "nestedPaths": [
+            "META-INF/jarjar/kuma-api-forge-20.1.12+1.20.1.jar"
+          ],
+          "parentPath": "mods/balm-forge-1.20.1-7.3.44.jar",
+          "parentSha256": "ad11d968770bb1ce73377626b6f1dcd4ae6f8be1ef6f37cee9b872b8176aebd3",
+          "selectedSourceSha256": "5118a4d1ce2bb836158184887002c7aec7d723a56da5185a0c5b08f9c5cc4767"
+        }
+      ],
+      "nativeSourceFile": "kuma-api-forge-20.1.12+1.20.1.jar",
+      "nativeVersion": "20.1.12",
+      "websiteUrl": "https://github.com/TwelveIterations/KumaAPI"
+    },
+    "mezz_config": {
+      "matches": [
+        {
+          "coordinates": [],
+          "nestedPaths": [],
+          "parentPath": "mods/mezz_config-1.20.1-forge-0.6.10.jar",
+          "parentSha256": "3f549623d8490077ee13a3f3899ff3fbe51f36af0a492b81974c456608e623c1",
+          "selectedSourceSha256": "3f549623d8490077ee13a3f3899ff3fbe51f36af0a492b81974c456608e623c1"
+        }
+      ],
+      "nativeSourceFile": "mezz_config-1.20.1-forge-0.6.10.jar",
+      "nativeVersion": "0.6.10",
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/mezzconfig"
+    },
+    "mixinsquared": {
+      "matches": [
+        {
+          "coordinates": [
+            {
+              "artifact": "mixinsquared-forge",
+              "group": "com.github.bawnorton.mixinsquared"
+            }
+          ],
+          "nestedPaths": [
+            "META-INF/jarjar/mixinsquared-forge-0.3.6-beta.1.jar"
+          ],
+          "parentPath": "mods/alltheleaks-1.1.4+1.20.1-forge.jar",
+          "parentSha256": "fb72063a7d17df97740d24355444ef2f95eab97728e1256c639bb432c61b7716",
+          "selectedSourceSha256": "778bb6ed23de986e295f14f9044609baf321961a54970fc9ed7f2d2d096aab3c"
+        }
+      ],
+      "nativeSourceFile": "mixinsquared-forge-0.3.6-beta.1.jar",
+      "nativeVersion": "0.3.6-beta.1",
+      "websiteUrl": "https://github.com/Bawnorton/MixinSquared"
+    },
+    "modmenu": {
+      "matches": [
+        {
+          "coordinates": [
+            {
+              "artifact": "modmenu-bridge",
+              "group": "dev.su5ed.sinytra"
+            }
+          ],
+          "nestedPaths": [
+            "META-INF/jarjar/modmenu-bridge-1.11.2+1.20.1.jar"
+          ],
+          "parentPath": "mods/ConnectorExtras-1.11.2+1.20.1.jar",
+          "parentSha256": "10d149fc9348b57120f50e3f82ac6f7e544ae18f0b5b7342c0cab3af38f5acd8",
+          "selectedSourceSha256": "b1b4115039f89e44a63edeff20fe7b082b3b232f6eb9ecabce295bc1c758667a"
+        }
+      ],
+      "nativeSourceFile": "modmenu-bridge-1.11.2+1.20.1.jar",
+      "nativeVersion": "7.2.2",
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/connector-extras"
+    },
+    "puzzlesaccessapi": {
+      "matches": [
+        {
+          "coordinates": [
+            {
+              "artifact": "puzzlesaccessapi-forge",
+              "group": "fuzs.puzzlesaccessapi"
+            }
+          ],
+          "nestedPaths": [
+            "META-INF/jarjar/puzzlesaccessapi-forge-20.1.1.jar"
+          ],
+          "parentPath": "mods/PuzzlesLib-v8.1.36-1.20.1-Forge.jar",
+          "parentSha256": "103f1d46c16023e346802a9b2024db885cf8dc3a43ee5106bcd5ed8165073efd",
+          "selectedSourceSha256": "3ab5a6c0dab0ecff4c429c7cef37f7528d8ec6fb87c727f28b80121ffcf5254c"
+        }
+      ],
+      "nativeSourceFile": "puzzlesaccessapi-forge-20.1.1.jar",
+      "nativeVersion": "20.1.1",
+      "websiteUrl": "https://github.com/Fuzss/puzzlesaccessapi"
+    },
+    "reach_entity_attributes": {
+      "matches": [
+        {
+          "coordinates": [
+            {
+              "artifact": "reach-entity-attributes",
+              "group": "dev.su5ed.sinytra"
+            }
+          ],
+          "nestedPaths": [
+            "META-INF/jarjar/reach-entity-attributes-2.4.0.jar"
+          ],
+          "parentPath": "mods/ConnectorExtras-1.11.2+1.20.1.jar",
+          "parentSha256": "10d149fc9348b57120f50e3f82ac6f7e544ae18f0b5b7342c0cab3af38f5acd8",
+          "selectedSourceSha256": "4073f7053e00f2bef69264de3ec0169c344e8404dae3eefd93a3fb19856d7360"
+        }
+      ],
+      "nativeSourceFile": "reach-entity-attributes-2.4.0.jar",
+      "nativeVersion": "2.4.0",
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/connector-extras"
+    },
+    "spectrelib": {
+      "matches": [
+        {
+          "coordinates": [
+            {
+              "artifact": "spectrelib-forge",
+              "group": "com.illusivesoulworks.spectrelib"
+            }
+          ],
+          "nestedPaths": [
+            "META-INF/jarjar/spectrelib-forge-0.13.17+1.20.1.jar"
+          ],
+          "parentPath": "mods/polymorph-forge-0.49.11+1.20.1.jar",
+          "parentSha256": "cb633f3a3220ccfd00efbb57fb37bf7be44b5266195103af26add462fa71d86a",
+          "selectedSourceSha256": "0e2b29d9a55eeaf6196b284b4a964f917254c4102152c328bf82f58b52ade389"
+        }
+      ],
+      "nativeSourceFile": "spectrelib-forge-0.13.17+1.20.1.jar",
+      "nativeVersion": "0.13.17+1.20.1",
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/spectrelib"
+    },
+    "teraphobia": {
+      "matches": [
+        {
+          "coordinates": [],
+          "nestedPaths": [],
+          "parentPath": "mods/Teraphobia-RoC-2.1.0.jar",
+          "parentSha256": "a17881eac482eea28b245ca326466f280ab579dcdc059856d782d73087385fbe",
+          "selectedSourceSha256": "a17881eac482eea28b245ca326466f280ab579dcdc059856d782d73087385fbe"
+        }
+      ],
+      "nativeSourceFile": "Teraphobia-RoC-2.1.0.jar",
+      "nativeVersion": "2.1.0",
+      "websiteUrl": "https://www.curseforge.com/minecraft/modpacks/fear-nightfall/files/9389072"
+    },
+    "transition": {
+      "matches": [
+        {
+          "coordinates": [
+            {
+              "artifact": "TRansition",
+              "group": "dev.tr7zw"
+            }
+          ],
+          "nestedPaths": [
+            "META-INF/jars/TRansition-1.0.27-1.20.1-forge-SNAPSHOT.jar"
+          ],
+          "parentPath": "mods/skinlayers3d-forge-1.11.4-mc1.20.1.jar",
+          "parentSha256": "df839af815c55fff84136136bc02868d93771f4a7fcbbf9a9f9d0e04c0d29904",
+          "selectedSourceSha256": "07d3f5b406433817f12dd56bbc24997dfff479d6ab0f40edfb9407112b16349b"
+        }
+      ],
+      "nativeSourceFile": "TRansition-1.0.27-1.20.1-forge-SNAPSHOT.jar",
+      "nativeVersion": "1.0.27",
+      "websiteUrl": "https://github.com/tr7zw/TRansition"
+    },
+    "trender": {
+      "matches": [
+        {
+          "coordinates": [
+            {
+              "artifact": "TRender",
+              "group": "dev.tr7zw"
+            }
+          ],
+          "nestedPaths": [
+            "META-INF/jars/TRender-1.0.17-1.20.1-forge-SNAPSHOT.jar"
+          ],
+          "parentPath": "mods/entityculling-forge-1.11.3-mc1.20.1.jar",
+          "parentSha256": "86de2a9fc6538bc26e71e5393ae72018eb9bb349a5dbaa0645fd194da5654b66",
+          "selectedSourceSha256": "a4388b715bbd82591f908595c07fd79130e67e696d00236ff09c99101d68c001"
+        },
+        {
+          "coordinates": [
+            {
+              "artifact": "TRender",
+              "group": "dev.tr7zw"
+            }
+          ],
+          "nestedPaths": [
+            "META-INF/jars/TRender-1.0.17-1.20.1-forge-SNAPSHOT.jar"
+          ],
+          "parentPath": "mods/notenoughanimations-forge-1.12.6-mc1.20.1.jar",
+          "parentSha256": "66f1f6d61102dd03a4afafe4c9f1d39be9e55dabc8d0821cb46acca1328b525d",
+          "selectedSourceSha256": "4c5dfd886db33716bafe0dc0356d96ad6e05c154dbaa598063c71abfe90e48a7"
+        },
+        {
+          "coordinates": [
+            {
+              "artifact": "TRender",
+              "group": "dev.tr7zw"
+            }
+          ],
+          "nestedPaths": [
+            "META-INF/jars/TRender-1.0.17-1.20.1-forge-SNAPSHOT.jar"
+          ],
+          "parentPath": "mods/skinlayers3d-forge-1.11.4-mc1.20.1.jar",
+          "parentSha256": "df839af815c55fff84136136bc02868d93771f4a7fcbbf9a9f9d0e04c0d29904",
+          "selectedSourceSha256": "e6ac234216e961227d640ddb3780f45f7943ae1f4af456b689c2f56de6cb42eb"
+        }
+      ],
+      "nativeSourceFile": "TRender-1.0.17-1.20.1-forge-SNAPSHOT.jar",
+      "nativeVersion": "1.0.17",
+      "websiteUrl": "https://github.com/tr7zw/TRender"
+    }
+  },
+  "nativeEvidence": {
+    "authorModJarCount": 292,
+    "excludedIds": {
+      "e4steam": {
+        "nativeSourceFile": "e4steam-forge-mc1.18.2-1.20.2-v0.3.4-lanmc-native-ui.2.jar",
+        "version": "0.3.4"
+      },
+      "forge": {
+        "nativeSourceFile": "forge-1.20.1-47.4.8-universal.jar",
+        "version": "47.4.8"
+      },
+      "minecraft": {
+        "nativeSourceFile": "client-1.20.1-20230612.114412-srg.jar",
+        "version": "1.20.1"
+      }
+    },
+    "loadedAuthorModCount": 377,
+    "nativeModCount": 380,
+    "observedModListSha256": "5c905b72ee89bddc99614bd1960b5241b182f5216b4f7bf37262b099103ec423",
+    "steamComponentSha256": "3f397fc193f14d3c543b5ef9b4613bc149a21ca8e14bd93c39de3d1bc6f9553c"
+  },
+  "officialProjectRecords": {
+    "normalizedCacheSha256": "ed9ba00160d826d5cfdb64db59df96d482b0fff49d8f52093eb5f7067fd4f63c",
+    "projectCount": 291,
+    "projectEndpointTemplate": "https://api.modpacks.ch/public/curseforge/{projectId}"
+  },
+  "optionalDependencySelected": {
+    "authorRequired": false,
+    "observedModId": "betterchunkloading",
+    "path": "mods/betterchunkloading-1.20.1-5.4.jar",
+    "sha256": "86ae160bdd974452e0198e27d473d43b25d6df8b0abebee95d6381ae90339caa"
+  },
+  "packVersion": "1.2.0",
+  "schemaVersion": 1,
+  "upstreamLockSha256": "2b4ad64dd576c354a5eb01326ce6e6bde4fc08650ec5e60494d6d79d68f396dc"
+}
