@@ -17,6 +17,8 @@ python -B tools/PackData/CurseForge/release_overlay.py stage --pack-source Local
 
 Авторский Luna 5.3.1 (`880620/6599106`, SHA256 `26635aa32433775d9f10403d928a2008cb38173032c25720c52d33fd2cb4b1c8`) остаётся в lock и исключается из игровой поставки. Его `ServerConnectionListenerMixin` при открытии мира запускает отдельное реле через `QuiclimeSession.startAsync()`. Настройки Luna задают выбор реле и его адрес. В JAR есть только реализация сетевой публикации и её зависимости. В метаданных остальных модов ссылок на Luna нет. Открытие мира и закрытие публикации выполняет e4steam. [Авторский Luna 5.3.1](https://www.curseforge.com/minecraft/mc-mods/luna/files/6599106)
 
+No Report Button 1.5.0 (`658722/4594978`, SHA256 `9f6a4af984632c7a7a673907303c5d69bd3016634ed48b328aa30a24cd0c0416`) остаётся в lock и исключается из игровой поставки. Его `GameMenuScreenMixin` после открытия мира переименовывает «Жалобы» в «Открыть для сети» и выключает кнопку. Проверенный JAR не предусматривает настройки для этого действия. Обе кнопки используют одну позицию в оформлении FancyMenu. No Chat Reports и его настройки поставляются из авторских файлов. [No Report Button 1.5.0](https://www.curseforge.com/minecraft/mc-mods/no-report-button/files/4594978)
+
 `tools/curseforge-placements.json` закрепляет 28 архивов. Ресурсы и шейдеры
 размещаются по официальным классам проектов. Два datapack версии 1.2
 совпали по SHA256 с файлами в корневой папке `datapacks` серверного

@@ -12,6 +12,35 @@
       "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/configured-defaults"
     }
   },
+  "baselineNativeEvidence": {
+    "authorModJarCount": 292,
+    "excludedIds": {
+      "e4steam": {
+        "nativeSourceFile": "e4steam-forge-mc1.18.2-1.20.2-v0.3.4-lanmc-native-ui.2.jar",
+        "version": "0.3.4"
+      },
+      "forge": {
+        "nativeSourceFile": "forge-1.20.1-47.4.8-universal.jar",
+        "version": "47.4.8"
+      },
+      "minecraft": {
+        "nativeSourceFile": "client-1.20.1-20230612.114412-srg.jar",
+        "version": "1.20.1"
+      }
+    },
+    "loadedAuthorModCount": 377,
+    "nativeModCount": 380,
+    "observedModListSha256": "5c905b72ee89bddc99614bd1960b5241b182f5216b4f7bf37262b099103ec423",
+    "steamComponentSha256": "3f397fc193f14d3c543b5ef9b4613bc149a21ca8e14bd93c39de3d1bc6f9553c"
+  },
+  "candidateInventory": {
+    "authorModJarCount": 291,
+    "expectedTotalNativeModCount": 379,
+    "finalNativeComparison": "Required by the release gate. The final-run comparison is recorded in a separate QA receipt.",
+    "loadedAuthorModCount": 376,
+    "remainingSourceJarsSha256": "e5c37441f4625830eb5608438ef74ea5ecce2697d732efb664bcf703f7a1ac95",
+    "removedBaselineModId": "noreportbutton"
+  },
   "connectorFabricSources": {
     "bclib": {
       "authorModId": "bclib",
@@ -346,14 +375,25 @@
       "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/wunderlib"
     }
   },
-  "excludedAuthorDependency": {
-    "fileId": 6599106,
-    "nativeModListContainsLuna": false,
-    "path": "mods/luna_minecraft-forge-5.3.1.jar",
-    "projectId": 880620,
-    "sha256": "26635aa32433775d9f10403d928a2008cb38173032c25720c52d33fd2cb4b1c8",
-    "sizeBytes": 623151
-  },
+  "excludedAuthorDependencies": [
+    {
+      "fileId": 6599106,
+      "nativeModListContainsLuna": false,
+      "path": "mods/luna_minecraft-forge-5.3.1.jar",
+      "projectId": 880620,
+      "sha256": "26635aa32433775d9f10403d928a2008cb38173032c25720c52d33fd2cb4b1c8",
+      "sizeBytes": 623151
+    },
+    {
+      "baselineObservedModId": "noreportbutton",
+      "fileId": 4594978,
+      "path": "mods/no-report-button-forge-1.5.0.jar",
+      "projectId": 658722,
+      "reason": "The client-only mod replaces the published Reports button with inactive Open to LAN. No settings or hard dependents found in the exact author pack.",
+      "sha256": "9f6a4af984632c7a7a673907303c5d69bd3016634ed48b328aa30a24cd0c0416",
+      "sizeBytes": 17064
+    }
+  ],
   "individuallyVerified": {
     "amecsapi": {
       "matches": [
@@ -1992,27 +2032,6 @@
       "nativeVersion": "1.0.17",
       "websiteUrl": "https://github.com/tr7zw/TRender"
     }
-  },
-  "nativeEvidence": {
-    "authorModJarCount": 292,
-    "excludedIds": {
-      "e4steam": {
-        "nativeSourceFile": "e4steam-forge-mc1.18.2-1.20.2-v0.3.4-lanmc-native-ui.2.jar",
-        "version": "0.3.4"
-      },
-      "forge": {
-        "nativeSourceFile": "forge-1.20.1-47.4.8-universal.jar",
-        "version": "47.4.8"
-      },
-      "minecraft": {
-        "nativeSourceFile": "client-1.20.1-20230612.114412-srg.jar",
-        "version": "1.20.1"
-      }
-    },
-    "loadedAuthorModCount": 377,
-    "nativeModCount": 380,
-    "observedModListSha256": "5c905b72ee89bddc99614bd1960b5241b182f5216b4f7bf37262b099103ec423",
-    "steamComponentSha256": "3f397fc193f14d3c543b5ef9b4613bc149a21ca8e14bd93c39de3d1bc6f9553c"
   },
   "officialProjectRecords": {
     "normalizedCacheSha256": "ed9ba00160d826d5cfdb64db59df96d482b0fff49d8f52093eb5f7067fd4f63c",
