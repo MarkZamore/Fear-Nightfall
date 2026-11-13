@@ -2,6 +2,12 @@
   "schemaVersion": 1,
   "authorArchiveSha256": "966d6f4002bf4e70f27b9d3452f7843058a116d6733e00ed6fc3bbde1db89890",
   "descriptorSha256": "1c515a70f727d5c5266efa97b22ba339b6736730798b9e9f77ad652a72ebc9b7",
+  "excludedDependencies": [
+    {
+      "projectId": 880620,
+      "fileId": 6599106
+    }
+  ],
   "patches": [
     {
       "path": "config/fancymenu/customization/gamemenu.txt",

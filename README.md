@@ -15,6 +15,8 @@ python -B tools/PackData/CurseForge/release_overlay.py stage --pack-source Local
 
 `tools/overlay.json` сохраняет политику открытия мира через Steam. Для нового авторского выпуска снимите отдельную квитанцию через `prepare.py --client-only` и проверьте её командой `release_overlay.py review-update`. При изменении защищённого входа пересмотрите рецепт и закрепите новые точные байты. После нативной проверки сохраните полный `tools/upstream-lock.json` и выполните `release_overlay.py verify` по готовому манифесту.
 
+Авторский Luna 5.3.1 (`880620/6599106`, SHA256 `26635aa32433775d9f10403d928a2008cb38173032c25720c52d33fd2cb4b1c8`) остаётся в lock и исключается из игровой поставки. Его `ServerConnectionListenerMixin` при открытии мира запускает отдельное реле через `QuiclimeSession.startAsync()`. Настройки Luna задают выбор реле и его адрес. В JAR есть только реализация сетевой публикации и её зависимости. В метаданных остальных модов ссылок на Luna нет. Открытие мира и закрытие публикации выполняет e4steam. [Авторский Luna 5.3.1](https://www.curseforge.com/minecraft/mc-mods/luna/files/6599106)
+
 `tools/curseforge-placements.json` закрепляет 28 архивов. Ресурсы и шейдеры
 размещаются по официальным классам проектов. Два datapack версии 1.2
 совпали по SHA256 с файлами в корневой папке `datapacks` серверного
