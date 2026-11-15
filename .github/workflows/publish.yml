@@ -1,0 +1,33 @@
+name: Publish controls preset
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'launcher/controls-preset.txt'
+      - 'tools/keybinds/**'
+      - '.github/workflows/publish.yml'
+  workflow_dispatch:
+
+concurrency:
+  group: fear-nightfall-pack-latest
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Verify source and build release
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          python -B tools/keybinds/check_preset.py
+          python -B tools/network_logging_policy.py verify --pack .
+          python -B tools/keybinds/publish.py --output "$RUNNER_TEMP/fear-controls" --publish

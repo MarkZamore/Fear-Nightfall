@@ -6,3 +6,5 @@
 /tools/network-logging-policy.json text eol=lf
 /tools/network_logging_policy.py text eol=lf
 *.json text eol=lf
+/launcher/controls-preset.txt text eol=lf
+/tools/keybinds/registered-keys.txt text eol=lf
