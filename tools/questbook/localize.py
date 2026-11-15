@@ -124,6 +124,7 @@ def zip_bytes(entries):
     with ZipFile(out, "w") as z:
         for name, data in sorted(entries.items()):
             info = ZipInfo(name, (1980, 1, 1, 0, 0, 0))
+            info.create_system = 3  # Keep ZIP metadata byte-identical on Windows and Linux.
             z.writestr(info, data)
     return out.getvalue()
 
@@ -201,8 +202,14 @@ def build(archive, *, approve=False):
     }
     if approve:
         PINS.write_bytes(encode(state))
-    elif read_json(PINS.read_bytes()) != state:
-        raise ValueError("Quest overlay pins changed. Review author files, dependencies and Russian text, then explicitly approve.")
+    else:
+        recorded = read_json(PINS.read_bytes())
+        if recorded != state:
+            changed = []
+            for label in ("inputs", "outputs"):
+                old, new = recorded.get(label, {}), state[label]
+                changed.extend(sorted(path for path in old.keys() | new.keys() if old.get(path) != new.get(path)))
+            raise ValueError("Review quest overlay pins before publication: " + ", ".join(changed))
     return outputs, state
 
 
