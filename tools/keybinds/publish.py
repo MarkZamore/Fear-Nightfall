@@ -173,7 +173,7 @@ def verify_public(manifest, assets, preset):
     if entry != {"path": PRESET, **pin(preset)}:
         raise ValueError("Public preset pin differs from source")
     for name, data in assets.items():
-        if read_asset(name, 8 * 1024 * 1024) != data:
+        if read_asset(name, len(data)) != data:
             raise ValueError(f"Public bytes differ: {name}")
     print(f"Verified {actual['revision']} {PRESET} SHA256={entry['sha256']}")
 
@@ -244,7 +244,7 @@ def main():
         for name, data in assets.items():
             if name not in remote:
                 gh("release", "upload", TAG, str(args.output / name), "--repo", REPO)
-            if read_asset(name, 8 * 1024 * 1024) != data:
+            if read_asset(name, len(data)) != data:
                 raise ValueError(f"Changed asset verification failed: {name}")
         if read_asset(MANIFEST, 2 * 1024 * 1024) != raw:
             raise ValueError("Published manifest changed while preparing the update")
