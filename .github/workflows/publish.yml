@@ -1,4 +1,4 @@
-name: Publish controls preset
+name: Publish Fear Nightfall pack data
 
 on:
   push:
@@ -6,6 +6,7 @@ on:
     paths:
       - 'launcher/controls-preset.txt'
       - 'tools/keybinds/**'
+      - 'tools/questbook/**'
       - '.github/workflows/publish.yml'
   workflow_dispatch:
 

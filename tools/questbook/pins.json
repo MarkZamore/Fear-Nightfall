@@ -1,0 +1,120 @@
+{
+  "counts": {
+    "chapters": 9,
+    "entries": 376,
+    "occurrences": 420
+  },
+  "inputs": {
+    "config/ftbquests/quests/chapter_groups.snbt": {
+      "sha256": "6f43319c1d03a4fd294706a6d63dbb028dd4d3504e3f12ad06626be9614b5ec7",
+      "sizeBytes": 166
+    },
+    "config/ftbquests/quests/chapters/chapter_1.snbt": {
+      "sha256": "49e64b75bce0edd49b02cf0bb9ac7bcced473f22b8b75f5474c9058d8e80da9c",
+      "sizeBytes": 8707
+    },
+    "config/ftbquests/quests/chapters/chapter_iii.snbt": {
+      "sha256": "4dc2fbed8a220850282451ab0e88699c9b6fc00a9dc6940074b78aef83f6bd43",
+      "sizeBytes": 7788
+    },
+    "config/ftbquests/quests/chapters/chapter_v.snbt": {
+      "sha256": "3b646c212b1ab9e8af0569d8723761b33599b1cef832a9b5f431f5fddee582b1",
+      "sizeBytes": 17945
+    },
+    "config/ftbquests/quests/chapters/chapter_vi.snbt": {
+      "sha256": "1c635b513c86c0ff44c5da21a900faef94acc4307a4a32fcefa05a7dce8069db",
+      "sizeBytes": 18181
+    },
+    "config/ftbquests/quests/chapters/echapter_ii_7chaotic_beings.snbt": {
+      "sha256": "31056fe2d1648492baaddd71854a2ae03a1be9c8e22ba03ac7dcd7b94bdbd1b3",
+      "sizeBytes": 8740
+    },
+    "config/ftbquests/quests/chapters/echapter_iv___7hellish.snbt": {
+      "sha256": "e5da5fa1c0c86579f664fc9e2c9ef57fdca07548eac946b116f044fe17bdbaa6",
+      "sizeBytes": 9585
+    },
+    "config/ftbquests/quests/chapters/echapter_vii_7mother_of_chaos.snbt": {
+      "sha256": "30638270687c2e341f8d90b323d18b8032e0584356267763577c9b3bd61ed7b6",
+      "sizeBytes": 5174
+    },
+    "config/ftbquests/quests/chapters/echapter_xr_7chorbia_was_here.snbt": {
+      "sha256": "85a7f87f0c6f9b50a849316934a71b3f2066e20b7902bfe540a512459ac6e919",
+      "sizeBytes": 11625
+    },
+    "config/ftbquests/quests/chapters/tutorial.snbt": {
+      "sha256": "1f3ffb2b9dc09c93eb47e23620b7360a9b83804aa63d6bab1510b55fda0dda26",
+      "sizeBytes": 7448
+    },
+    "config/ftbquests/quests/data.snbt": {
+      "sha256": "7606b79ef1371b7085bf99fbf8dec1ea7e64c4d808d47c28f0f1abead4ccba01",
+      "sizeBytes": 670
+    },
+    "launcher/pack-owned.txt": {
+      "sha256": "59f476cdabbbfedec7990e011c0904f7c8237b6293f6a9931a8baf6e115fe39f",
+      "sizeBytes": 114
+    },
+    "mods/Paxi-1.20-Forge-4.0.jar": {
+      "sha256": "dd18dd9696d099137b170076676e8411e3d8385af15941f68472f21167266f1a",
+      "sizeBytes": 96892
+    },
+    "mods/ftb-library-forge-2001.2.13.jar": {
+      "sha256": "41810281b65336265cae2c88412022d02f2f0a3f28c66a06173d86f98acf14a7",
+      "sizeBytes": 780558
+    },
+    "mods/ftb-quests-forge-2001.4.22.jar": {
+      "sha256": "9ea9d159a78a2724cfe0457b024680fdb52a2126eff9cfa5280a30578f647a68",
+      "sizeBytes": 1255469
+    }
+  },
+  "outputs": {
+    "config/ftbquests/quests/chapter_groups.snbt": {
+      "sha256": "506f9982c672e99e06cf5e30e22628a00df70f72e4f2e9c4b574a794a812fe50",
+      "sizeBytes": 264
+    },
+    "config/ftbquests/quests/chapters/chapter_1.snbt": {
+      "sha256": "4e4185ac1b31530d88e7b11f3c073b3560d4d2b93be2663ce5b6f1a1cacd05dc",
+      "sizeBytes": 9839
+    },
+    "config/ftbquests/quests/chapters/chapter_iii.snbt": {
+      "sha256": "df647050fbc505721fdc8b42e542a13537108a107e7735fc375e4bd5da73fbfd",
+      "sizeBytes": 8319
+    },
+    "config/ftbquests/quests/chapters/chapter_v.snbt": {
+      "sha256": "f5ca95ca613fbc42a21755929af3899a0032a4f5acde5fa41a1ceb55cfe02476",
+      "sizeBytes": 19461
+    },
+    "config/ftbquests/quests/chapters/chapter_vi.snbt": {
+      "sha256": "b56f3ab446ae9918ab64aa9da32ab52580042f01ea5199f489fa7fd52808236e",
+      "sizeBytes": 19586
+    },
+    "config/ftbquests/quests/chapters/echapter_ii_7chaotic_beings.snbt": {
+      "sha256": "f9f3f4289ed0290823fbb434766f7530a97e096ad1a8b11af7602b82846d6808",
+      "sizeBytes": 10043
+    },
+    "config/ftbquests/quests/chapters/echapter_iv___7hellish.snbt": {
+      "sha256": "856cc894f8fdb4528c408e1812b54ed2e195578d0e87311c44196efe5a682b99",
+      "sizeBytes": 11435
+    },
+    "config/ftbquests/quests/chapters/echapter_vii_7mother_of_chaos.snbt": {
+      "sha256": "973384422cf3a0f9bd0346b33f23bf83bb6128e994651ef8f6ee370031d3e591",
+      "sizeBytes": 6042
+    },
+    "config/ftbquests/quests/chapters/echapter_xr_7chorbia_was_here.snbt": {
+      "sha256": "0c8ea664e32e7423b29263ac6603da302003cde373e5d360f437fa459dad02d3",
+      "sizeBytes": 13522
+    },
+    "config/ftbquests/quests/chapters/tutorial.snbt": {
+      "sha256": "3cb116069297050ac0fc44b7bf905b5dca8ae44437849aa9abbfc0c8b1dce261",
+      "sizeBytes": 9229
+    },
+    "config/paxi/resourcepacks/lanminecraft-fear-nightfall-quests.zip": {
+      "sha256": "c82ecb085f30f9420449e7a35b4ec49b8f96699ca8a0323519d26c30dda01bd8",
+      "sizeBytes": 114153
+    },
+    "launcher/pack-owned.txt": {
+      "sha256": "939d138fae5683e796d65e71914657a9947437c8778d419bc4cdcfadb06a3a51",
+      "sizeBytes": 728
+    }
+  },
+  "schemaVersion": 1
+}

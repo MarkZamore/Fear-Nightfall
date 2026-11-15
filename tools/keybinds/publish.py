@@ -1,4 +1,4 @@
-"""Publish a controls-only update using the existing verified pack-latest assets."""
+"""Publish pack-owned controls and quest book data over verified release assets."""
 from datetime import datetime, timezone
 import argparse
 import hashlib
@@ -8,15 +8,18 @@ import os
 from pathlib import Path
 import re
 import subprocess
+import sys
 from urllib.request import Request, urlopen
 from uuid import uuid4
 from zipfile import ZIP_DEFLATED, ZipFile, ZipInfo
 
 ROOT = Path(__file__).resolve().parents[2]
+sys.path.insert(0, str(ROOT / "tools/questbook"))
+import localize as questbook
+
 REPO = "MarkZamore/Fear-Nightfall"
 TAG = "pack-latest"
 PRESET = "launcher/controls-preset.txt"
-SOURCE_BASE = "e8c298ae7d6c446e6105078a091fb87cf4cf6e94"
 MANIFEST = "pack-manifest.json"
 
 
@@ -61,8 +64,9 @@ def zip_bytes(entries):
 
 
 def candidate(previous, library_bytes, preset, revision):
+    descriptor = json.loads((ROOT / "portable-pack.json").read_bytes())
     if (previous["schemaVersion"], previous["packId"], previous["minecraftVersion"], previous["loader"]) != (
-        2, "minecraft-23", "1.20.1", {"type": "forge", "version": "47.4.8"}
+        2, "minecraft-23", descriptor["minecraftVersion"], descriptor["loader"]
     ):
         raise ValueError("Unexpected publication identity or platform")
     library = previous["library"]
@@ -106,6 +110,61 @@ def candidate(previous, library_bytes, preset, revision):
     return manifest, {library_name: library_data, preset_name: preset_data}
 
 
+def merge_questbook(manifest, new_assets, outputs, state, read, previous_outputs):
+    files = {row["path"]: row for row in manifest["files"]}
+    owners = {path: asset for asset in manifest["assets"] for path in asset["covers"]}
+    for path, expected in state["inputs"].items():
+        row = files.get(path)
+        if row is None or questbook.row_pin(row) not in (expected, previous_outputs.get(path)):
+            raise ValueError(f"Release input differs from the checked quest source: {path}")
+
+    affected = {}
+    for path in outputs:
+        if path in owners:
+            original = owners[path]
+        elif path == questbook.RESOURCES and path not in files:
+            original = owners[next(p for p in outputs if p.startswith(questbook.QUEST))]
+        else:
+            raise ValueError(f"Missing payload for {path}")
+        if original["kind"] != "zipRoot":
+            raise ValueError(f"Expected a root ZIP for {path}")
+        affected.setdefault(original["name"], (original, {}))[1][path] = outputs[path]
+
+    replaced = set(affected)
+    for name, (original, changes) in affected.items():
+        if all(path in files and questbook.row_pin(files[path]) == pin(data) for path, data in changes.items()):
+            replaced.remove(name)
+            continue
+        body = read(name, original["sizeBytes"])
+        if pin(body) != questbook.row_pin(original):
+            raise ValueError(f"Base archive does not match its pin: {name}")
+        with ZipFile(BytesIO(body)) as archive:
+            if sorted(archive.namelist()) != sorted(original["covers"]):
+                raise ValueError(f"Unexpected ZIP members: {name}")
+            entries = {}
+            for member in archive.infolist():
+                row = files[member.filename]
+                if member.file_size != row["sizeBytes"]:
+                    raise ValueError(f"Unexpected ZIP member size: {member.filename}")
+                data = archive.read(member)
+                if pin(data) != questbook.row_pin(row):
+                    raise ValueError(f"Unexpected ZIP member hash: {member.filename}")
+                entries[member.filename] = data
+        entries.update(changes)
+        payload = zip_bytes(entries)
+        label = "config" if any(rel.startswith("config/") for rel in changes) else "launcher"
+        new_name = f"r-{sha(payload)[:12]}-{label}.zip"
+        manifest["assets"].append({"kind": "zipRoot", "name": new_name, "covers": sorted(entries), **pin(payload)})
+        new_assets[new_name] = payload
+    for path, data in outputs.items():
+        files[path] = {"path": path, **pin(data)}
+    manifest["files"] = sorted(files.values(), key=lambda row: row["path"])
+    manifest["assets"] = sorted(
+        (asset for asset in manifest["assets"] if asset["name"] not in replaced),
+        key=lambda row: row["name"],
+    )
+
+
 def verify_public(manifest, assets, preset):
     actual = json.loads(read_asset(MANIFEST, 2 * 1024 * 1024))
     if actual != manifest:
@@ -123,25 +182,57 @@ def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--output", required=True, type=Path)
     parser.add_argument("--publish", action="store_true")
+    parser.add_argument("--author-archive", type=Path)
+    parser.add_argument("--base-release", type=Path)
     args = parser.parse_args()
     revision = git("rev-parse", "HEAD")
-    changed = git("diff", "--name-only", SOURCE_BASE, revision).splitlines()
-    allowed = {".gitattributes", "README.md", PRESET, ".github/workflows/publish.yml"}
-    if any(rel not in allowed and not rel.startswith("tools/keybinds/") for rel in changed):
-        raise ValueError("A controls-only publisher cannot ship unrelated changes")
+    if args.publish and args.base_release:
+        parser.error("Upload new full base assets first, then publish the composed manifest last")
     preset = subprocess.check_output(["git", "-C", str(ROOT), "show", f"HEAD:{PRESET}"])
     if preset != (ROOT / PRESET).read_bytes():
         raise ValueError("Working preset differs from committed source")
-    raw = read_asset(MANIFEST, 2 * 1024 * 1024)
+    if args.base_release:
+        def read(name, maximum):
+            if not re.fullmatch(r"[A-Za-z0-9_.-]+", name):
+                raise ValueError("Invalid staged asset name")
+            path = args.base_release / ("." if name == MANIFEST else "assets") / name
+            if path.stat().st_size > maximum:
+                raise ValueError(f"Oversized staged asset: {name}")
+            return path.read_bytes()
+        remote = {}
+    else:
+        read = read_asset
+        public = json.loads(gh("api", f"repos/{REPO}/releases/tags/{TAG}"))
+        remote = {a["name"]: a for a in public["assets"]}
+
+    raw = read(MANIFEST, 2 * 1024 * 1024)
     previous = json.loads(raw)
-    public = json.loads(gh("api", f"repos/{REPO}/releases/tags/{TAG}"))
-    remote = {a["name"]: a for a in public["assets"]}
-    for asset in [*previous["assets"], previous["library"]]:
-        row = remote[asset["name"]]
-        if row["size"] != asset["sizeBytes"] or row.get("digest") != "sha256:" + asset["sha256"]:
-            raise ValueError(f"Existing GitHub asset metadata differs: {asset['name']}")
-    library = read_asset(previous["library"]["name"], 8 * 1024 * 1024)
+    if args.base_release and previous["revision"] != revision:
+        raise ValueError("Stage the author base release from the same source commit")
+    if not args.base_release:
+        base_revision = previous["revision"]
+        if not re.fullmatch(r"[a-f0-9]{40}", base_revision):
+            raise ValueError("Invalid public revision")
+        git("merge-base", "--is-ancestor", base_revision, revision)
+        changed = git("diff", "--name-only", base_revision, revision).splitlines()
+        allowed = {".gitattributes", "README.md", PRESET, ".github/workflows/publish.yml"}
+        if any(rel not in allowed and not rel.startswith(("tools/keybinds/", "tools/questbook/")) for rel in changed):
+            raise ValueError("A data-only delta requires a verified full --base-release for unrelated changes")
+        for asset in [*previous["assets"], previous["library"]]:
+            row = remote[asset["name"]]
+            if row["size"] != asset["sizeBytes"] or row.get("digest") != "sha256:" + asset["sha256"]:
+                raise ValueError(f"Existing GitHub asset metadata differs: {asset['name']}")
+    library = read(previous["library"]["name"], 8 * 1024 * 1024)
     manifest, assets = candidate(previous, library, preset, revision)
+
+    archive = args.author_archive.read_bytes() if args.author_archive else questbook.author_archive(questbook.load_lock())
+    outputs, state = questbook.build(archive)
+    previous_pins = subprocess.run(
+        ["git", "-C", str(ROOT), "show", f"{previous['revision']}:tools/questbook/pins.json"],
+        capture_output=True, check=False,
+    )
+    previous_outputs = questbook.read_json(previous_pins.stdout)["outputs"] if previous_pins.returncode == 0 else {}
+    merge_questbook(manifest, assets, outputs, state, read, previous_outputs)
     args.output.mkdir(parents=True, exist_ok=False)
     for name, data in assets.items():
         (args.output / name).write_bytes(data)
@@ -161,6 +252,8 @@ def main():
         verify_public(manifest, assets, preset)
     else:
         print(f"Staged {revision}, {len(manifest['files'])} files, preset SHA256={sha(preset)}")
+
+    print(f"Quest book: {state['counts']}, Paxi ZIP SHA256={sha(outputs[questbook.RESOURCES])}")
 
 
 if __name__ == "__main__":
