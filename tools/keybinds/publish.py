@@ -21,6 +21,10 @@ REPO = "MarkZamore/Fear-Nightfall"
 TAG = "pack-latest"
 PRESET = "launcher/controls-preset.txt"
 MANIFEST = "pack-manifest.json"
+WARNING_ID = "fear_nightfall_multiplayer_warning"
+WARNING_JAR = "fear-nightfall-multiplayer-warning-1.0.0.jar"
+WARNING = "mods/" + WARNING_JAR
+WARNING_SHA = "9a44c173b3f8e7c75e6ecb7aef29162b08959b6e48e3087c1c92ac54c366454f"
 
 
 def git(*args):
@@ -84,6 +88,16 @@ def candidate(previous, library_bytes, preset, revision):
         if (card["revision"], card["id"], card["relativePath"]) != (previous["revision"], "minecraft-23", "Fear Nightfall"):
             raise ValueError("Unexpected library card")
         preview = z.read("preview.jpg")
+    prior_helper = any(row["id"] == WARNING_ID for row in card["mods"])
+    if prior_helper != any(row["path"] == WARNING for row in previous["files"]):
+        raise ValueError("Multiplayer helper and library card disagree")
+    if not prior_helper:
+        card["mods"].append({
+            "id": WARNING_ID, "isLibrary": True, "isLoadedMod": True,
+            "name": "Fear Nightfall Multiplayer Warning Preference", "parentId": None,
+            "version": "1.0.0", "websiteAvailable": True,
+            "websiteUrl": "https://github.com/MarkZamore/Fear-Nightfall#предупреждение-сетевой-игры",
+        })
     card["revision"] = revision
     library_data = zip_bytes({"library.json": encode(card), "preview.jpg": preview})
     library_name = f"library-{sha(library_data)}.zip"
@@ -95,6 +109,7 @@ def candidate(previous, library_bytes, preset, revision):
     manifest = {
         **previous,
         "revision": revision,
+        "modCount": previous["modCount"] + (not prior_helper),
         "generatedAtUtc": datetime.now(timezone.utc).isoformat(),
         "files": sorted(
             [f for f in previous["files"] if f["path"] != PRESET] + [{"path": PRESET, **pin(preset)}],
@@ -165,6 +180,38 @@ def merge_questbook(manifest, new_assets, outputs, state, read, previous_outputs
     )
 
 
+def merge_warning(manifest, assets):
+    if (manifest["minecraftVersion"], manifest["loader"]) != (
+        "1.20.1", {"type": "forge", "version": "47.4.8"}
+    ):
+        raise ValueError("Review the multiplayer preference hook for the new author runtime")
+    warning = (ROOT / "tools/multiplayer-warning" / WARNING_JAR).read_bytes()
+    if sha(warning) != WARNING_SHA:
+        raise ValueError("Multiplayer preference helper differs from its pin")
+    existing = [row for row in manifest["files"] if row["path"] == WARNING]
+    if existing:
+        if existing != [{"path": WARNING, **pin(warning)}]:
+            raise ValueError("Conflicting multiplayer helper in the base release")
+    else:
+        name = f"c-{WARNING_SHA[:12]}-{WARNING_JAR}"
+        assets[name] = warning
+        manifest["assets"].append({"kind": "jar", "name": name, "covers": [WARNING], **pin(warning)})
+        manifest["files"].append({"path": WARNING, **pin(warning)})
+        manifest["assets"].sort(key=lambda row: row["name"])
+        manifest["files"].sort(key=lambda row: row["path"])
+    verify_warning(manifest, warning)
+
+
+def verify_warning(manifest, warning):
+    files = [row for row in manifest["files"] if row["path"] == WARNING]
+    owners = [row for row in manifest["assets"] if WARNING in row["covers"]]
+    if files != [{"path": WARNING, **pin(warning)}] or len(owners) != 1:
+        raise ValueError("Multiplayer preference helper is missing or unpinned")
+    owner = owners[0]
+    if owner["kind"] != "jar" or owner["covers"] != [WARNING] or questbook.row_pin(owner) != pin(warning):
+        raise ValueError("Multiplayer preference helper payload differs from its checked JAR")
+
+
 def verify_public(manifest, assets, preset):
     actual = json.loads(read_asset(MANIFEST, 2 * 1024 * 1024))
     if actual != manifest:
@@ -216,7 +263,7 @@ def main():
         git("merge-base", "--is-ancestor", base_revision, revision)
         changed = git("diff", "--name-only", base_revision, revision).splitlines()
         allowed = {".gitattributes", "README.md", PRESET, ".github/workflows/publish.yml"}
-        if any(rel not in allowed and not rel.startswith(("tools/keybinds/", "tools/questbook/")) for rel in changed):
+        if any(rel not in allowed and not rel.startswith(("tools/keybinds/", "tools/questbook/", "tools/multiplayer-warning/")) for rel in changed):
             raise ValueError("A data-only delta requires a verified full --base-release for unrelated changes")
         for asset in [*previous["assets"], previous["library"]]:
             row = remote[asset["name"]]
@@ -233,6 +280,7 @@ def main():
     )
     previous_outputs = questbook.read_json(previous_pins.stdout)["outputs"] if previous_pins.returncode == 0 else {}
     merge_questbook(manifest, assets, outputs, state, read, previous_outputs)
+    merge_warning(manifest, assets)
     args.output.mkdir(parents=True, exist_ok=False)
     for name, data in assets.items():
         (args.output / name).write_bytes(data)

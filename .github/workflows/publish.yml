@@ -7,6 +7,7 @@ on:
       - 'launcher/controls-preset.txt'
       - 'tools/keybinds/**'
       - 'tools/questbook/**'
+      - 'tools/multiplayer-warning/**'
       - '.github/workflows/publish.yml'
   workflow_dispatch:
 

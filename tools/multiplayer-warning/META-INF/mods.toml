@@ -1,0 +1,21 @@
+modLoader="javafml"
+loaderVersion="[47,48)"
+license="MIT"
+[[mods]]
+modId="fear_nightfall_multiplayer_warning"
+version="1.0.0"
+displayName="Fear Nightfall Multiplayer Warning Preference"
+displayTest="IGNORE_ALL_VERSION"
+description="Sets the vanilla multiplayer disclaimer preference on the client."
+[[dependencies.fear_nightfall_multiplayer_warning]]
+modId="minecraft"
+mandatory=true
+versionRange="[1.20.1]"
+ordering="NONE"
+side="CLIENT"
+[[dependencies.fear_nightfall_multiplayer_warning]]
+modId="forge"
+mandatory=true
+versionRange="[47.4.8]"
+ordering="NONE"
+side="CLIENT"

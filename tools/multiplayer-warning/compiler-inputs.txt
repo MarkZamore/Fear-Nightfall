@@ -1,0 +1,6 @@
+989fbc2e7d2b6017e06893129c57da196c0ef0398cf1fcf6f9ea1580fdd826f9 net/minecraftforge/forge/1.20.1-47.4.8/forge-1.20.1-47.4.8-client.jar
+e2e940fe7ca0a9fba5a5c11ad2cf3e2f7df91bbf51d12af22cdde7af18adc344 net/minecraft/client/1.20.1-20230612.114412/client-1.20.1-20230612.114412-srg.jar
+20beae694289eaecf73ae2112c3729a3022061dbb24a98964e71dc5504459727 net/minecraftforge/forge/1.20.1-47.4.8/forge-1.20.1-47.4.8-universal.jar
+edc64e5e424dbc3d2c54559b79f29a53cccc096301da8ba89241368d17ecd4e6 net/minecraftforge/javafmllanguage/1.20.1-47.4.8/javafmllanguage-1.20.1-47.4.8.jar
+ae8bd4ea6b32509ace6dba904698b52e13d222625488c8291a05ab870e66c1dd net/minecraftforge/eventbus/6.0.5/eventbus-6.0.5.jar
+39d9a3d9277c1402b8e7b97f917ce278241cf1796312aec85b87f19a376dd99a net/minecraftforge/mergetool/1.1.5/mergetool-1.1.5-api.jar
